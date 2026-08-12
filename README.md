@@ -12,7 +12,15 @@
   <a href="https://apps.apple.com/us/app/boxhelper/id6737223705">View on the App Store</a>
 </p>
 
+<p align="center">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/1d/ff/4b1dffea-e377-7498-77fc-75b51194b487/Mockup_BoxHelper_DE5_6.png/460x996bb.webp" alt="BoxHelper screenshot showing organized boxes" width="220">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/a0/37/55a037b0-c84c-b2f7-0041-78aed9518ee8/Mockup_BoxHelper_DE1_2.png/460x996bb.webp" alt="BoxHelper screenshot showing inventory management" width="220">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/af/83/caaf8345-8fd0-eede-ca66-911489831946/Mockup_BoxHelper_EN2.png/460x996bb.webp" alt="BoxHelper screenshot showing QR code organization" width="220">
+</p>
+
 ## Overview
+
+
 
 BoxHelper is a SwiftUI app for keeping track of boxes, items, and storage locations. It is built for moving, home storage, basement shelves, office inventory, storage units, or any setup where you want to know what you own, where it is, and how to find it again without opening every box.
 
@@ -54,16 +62,6 @@ BoxHelper is built for:
 - iPad with iPadOS 18.0 or later
 - Mac with macOS 15.0 or later and an Apple M1 chip or later
 - Apple Vision with visionOS 2.0 or later
-
-## Project Structure
-
-```text
-BoxHelper/
-├── BoxHelper.xcodeproj        # Xcode project
-├── BoxHelper/                 # SwiftUI app, views, models, assets, and App Intents
-├── Model.xcdatamodeld/        # Data model
-└── Shortcuts/                 # Example shortcuts
-```
 
 ## Development
 
