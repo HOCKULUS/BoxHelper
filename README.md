@@ -26,8 +26,6 @@ BoxHelper is a SwiftUI app for keeping track of boxes, items, and storage locati
 
 Each box can get its own QR code. Scan the code later to jump directly to the box and see what is inside. BoxHelper also supports photos, tags, deeper search, backups, CSV import/export, and automation through Siri Shortcuts and App Intents.
 
-## Why This Project Is Open
-
 I no longer want to hide this app away. I want everyone to have the chance to become part of BoxHelper, whether that means actively contributing to this repository, learning from the code, or building their own version from it.
 
 AI has made it easier than ever to create copycats of management and organization apps. Instead of spreading effort across a thousand half-finished clones, I believe it is better to combine resources, ideas, and real-world feedback into one strong app that can become genuinely useful for more people.
