@@ -1,96 +1,53 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore,
-# Objective-C.gitignore & Swift.gitignore
-
-## User settings
-xcuserdata/
-*.xcuserstate
-
-## Xcode generated
-DerivedData/
-.build/
-Build/
-*.xcscmblueprint
-*.xccheckout
-
-## Obj-C/Swift specific
-*.hmap
-
-## App packaging
-*.ipa
-*.dSYM
-*.dSYM.zip
-
-## Playground
-timeline.xctimeline
-playground.xcworkspace
-
-## Swift Package Manager
-#
-# Keep Package.swift and Package.resolved if they are part of your
-# project's reproducible dependency setup.
-#
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata
-# file and xcuserdata.
-#
-# .swiftpm/
-
-## CocoaPods
-#
-# If you use CocoaPods, decide whether Pods/ should be committed.
-#
-# Pods/
-# *.xcworkspace
-
-## Carthage
-Carthage/Build/
-
-## fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
-
-## macOS
+# macOS metadata
 .DS_Store
 .AppleDouble
 .LSOverride
-._*
+Icon?
 
-## macOS generated files
-.Spotlight-V100
-.Trashes
-.VolumeIcon.icns
-.fseventsd
+# Xcode user-specific state
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
 
-## Temporary files
-*.tmp
-*.temp
-*.swp
-*.swo
-*~
-
-## Archives
+# Xcode build output and indexes
+build/
+Build/
+DerivedData/
+Index.noindex/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
 *.xcarchive
+*.resultbundle
 
-## Secrets / local configuration
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods and Carthage generated output
+Pods/
+Carthage/Build/
+
+# Fastlane generated reports and screenshots
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Local environment and signing secrets
 .env
 .env.*
-!.env.example
-
+*.p8
 *.p12
 *.mobileprovision
 *.provisionprofile
+ExportOptions.plist
 
-## IDE / editor
-.vscode/
-.idea/
-
-## Local Swift / Xcode configuration
-*.xcuserdatad
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
