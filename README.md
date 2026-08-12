@@ -5,7 +5,7 @@
 <h1 align="center">BoxHelper</h1>
 
 <p align="center">
-  Organize boxes, items, and storage locations with photos, QR codes, backups, CSV import/export, and Shortcuts automation.
+  Organize boxes, items, and storage locations with photos, QR codes, backups, CSV import/export and Shortcuts automation.
 </p>
 
 <p align="center">
