@@ -61,7 +61,6 @@ BoxHelper is built for:
 BoxHelper/
 ├── BoxHelper.xcodeproj        # Xcode project
 ├── BoxHelper/                 # SwiftUI app, views, models, assets, and App Intents
-├── BoxHelperUITests/          # UI tests
 ├── Model.xcdatamodeld/        # Data model
 └── Shortcuts/                 # Example shortcuts
 ```
