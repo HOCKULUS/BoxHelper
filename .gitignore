@@ -46,6 +46,16 @@ fastlane/test_output/
 *.provisionprofile
 ExportOptions.plist
 
+# Local config files that may contain API keys or service credentials
+Local.xcconfig
+Secrets.xcconfig
+*.local.xcconfig
+*.secret.xcconfig
+*.secrets.xcconfig
+credentials.json
+service-account*.json
+ServiceAccount*.json
+
 # Logs and temporary files
 *.log
 *.tmp
