@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Klein (20260330_0043_Image Generation_simple_compose_01kmxw6y77e5dtx13w7ba7xqvc).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
