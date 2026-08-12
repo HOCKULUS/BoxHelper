@@ -1,62 +1,96 @@
 # Xcode
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# gitignore contributors: remember to update Global/Xcode.gitignore,
+# Objective-C.gitignore & Swift.gitignore
 
 ## User settings
 xcuserdata/
+*.xcuserstate
+
+## Xcode generated
+DerivedData/
+.build/
+Build/
+*.xcscmblueprint
+*.xccheckout
 
 ## Obj-C/Swift specific
 *.hmap
 
 ## App packaging
 *.ipa
-*.dSYM.zip
 *.dSYM
+*.dSYM.zip
 
-## Playgrounds
+## Playground
 timeline.xctimeline
 playground.xcworkspace
 
-# Swift Package Manager
+## Swift Package Manager
 #
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Keep Package.swift and Package.resolved if they are part of your
+# project's reproducible dependency setup.
+#
 # Packages/
 # Package.pins
 # Package.resolved
 # *.xcodeproj
 #
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
-
-.build/
-
-# CocoaPods
+# Xcode automatically generates this directory with a .xcworkspacedata
+# file and xcuserdata.
 #
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# .swiftpm/
+
+## CocoaPods
+#
+# If you use CocoaPods, decide whether Pods/ should be committed.
 #
 # Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
+## Carthage
 Carthage/Build/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
-
+## fastlane
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## macOS generated files
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+
+## Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+## Archives
+*.xcarchive
+
+## Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+*.p12
+*.mobileprovision
+*.provisionprofile
+
+## IDE / editor
+.vscode/
+.idea/
+
+## Local Swift / Xcode configuration
+*.xcuserdatad
