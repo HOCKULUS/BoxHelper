@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24299" systemVersion="25A354" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AttributesDB" representedClassName="AttributesDB" syncable="YES" codeGenerationType="class">
+        <attribute name="targetUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="typeName" optional="YES" attributeType="String"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ItemsDB"/>
+    </entity>
+    <entity name="BoxesDB" representedClassName="BoxesDB" syncable="YES" codeGenerationType="class">
+        <attribute name="boxName" optional="YES" attributeType="String"/>
+        <attribute name="boxUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="locationUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LocationsDB"/>
+        <relationship name="relationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BoxImagesDB"/>
+        <relationship name="relationship2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ItemsDB"/>
+    </entity>
+    <entity name="BoxImagesDB" representedClassName="BoxImagesDB" syncable="YES" codeGenerationType="class">
+        <attribute name="boxUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BoxesDB"/>
+    </entity>
+    <entity name="ItemImagesDB" representedClassName="ItemImagesDB" syncable="YES" codeGenerationType="class">
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <attribute name="itemUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ItemsDB"/>
+    </entity>
+    <entity name="ItemsDB" representedClassName="ItemsDB" syncable="YES" codeGenerationType="class">
+        <attribute name="boxUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <attribute name="itemUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ItemImagesDB"/>
+        <relationship name="relationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AttributesDB"/>
+        <relationship name="relationship2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BoxesDB"/>
+    </entity>
+    <entity name="LocationsDB" representedClassName="LocationsDB" syncable="YES" codeGenerationType="class">
+        <attribute name="locationName" optional="YES" attributeType="String"/>
+        <attribute name="locationUUID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BoxesDB"/>
+    </entity>
+</model>

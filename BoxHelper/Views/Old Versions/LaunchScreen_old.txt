@@ -1,0 +1,212 @@
+
+//
+//  LauchScreen.swift
+//  BoxHelper
+//
+//  Created by HOCKULUS on 14.03.25.
+//
+
+import SwiftUI
+
+struct LaunchScreen: View {
+    @Environment(\.colorScheme) var colorScheme
+    @State private var animate = false
+    @State private var animate2 = false
+    @State private var animate3 = false
+    @Binding var isActive : Bool
+    let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "Unknown"
+    let updates = [
+        NSLocalizedString("📱 I’ve decided to stop developing the app. Apple doesn’t promote it, even though there were requests for it. There’s no support or response, while they keep featuring the next notes app with five reviews. It seems like apps with in-app purchases get priority.", comment: ""),
+        NSLocalizedString("📉 The app has around 7,000 downloads, and about half of them are active users. But only around 40 people have sent feedback. It’s hard to justify the time and costs for such a small group.", comment: ""),
+        NSLocalizedString("💸 I bought a MacBook for around €2,000 just to build this app and pay €98 every year to keep it on the App Store. Downloads have been flat for months, and it no longer makes sense to keep investing in it.", comment: ""),
+        NSLocalizedString("🕓 Once the app is removed from the App Store, it can still be used for at least 90 days after the last update.", comment: ""),
+        NSLocalizedString("💬 If you have an idea to keep the app alive, I’m open for suggestions. I’ve put in around 320 hours and €1,800, so I’d love to see it continue somehow.", comment: "")
+    ]
+    var body: some View {
+        ZStack {
+            HStack {
+                VStack {
+                    Spacer()
+                }
+                Spacer()
+            }
+            .background(colorScheme == .dark ? Color.black : Color.black.opacity(0.8))
+            // Vollflächiges Hintergrundbild
+            Image("Background")
+                .resizable()
+                .scaledToFit()
+                .edgesIgnoringSafeArea(.all)
+                .blur(radius: 30)
+                .opacity(animate ? 0.6 : 0)
+                .rotationEffect(.degrees(animate ? 420 : 290))
+                .scaleEffect(animate ? 2 : 1)
+                .hueRotation(.degrees(animate ? -100 : 70))
+                .animation(Animation.easeInOut(duration: 12.2), value: animate)
+            Image("Background")
+                .resizable()
+                .scaledToFit()
+                .edgesIgnoringSafeArea(.all)
+                .blur(radius: animate ?  5 : 15)
+                .opacity(animate ? 0.5 : 0)
+                .rotationEffect(.degrees(animate ? -100 : 0))
+                .scaleEffect(animate ? 6 : 5)
+                .hueRotation(.degrees(animate ? 200 : -40))
+                .animation(Animation.easeInOut(duration: 8.5), value: animate)
+            
+            Image("Background")
+                .resizable()
+                .scaledToFit()
+                .edgesIgnoringSafeArea(.all)
+                .blur(radius: animate ? 5 : 10)
+                .opacity(animate ? 0.5 : 0)
+                .rotationEffect(.degrees(animate ? 130 : 0))
+                .scaleEffect(animate ? 3.8 : 2.5)
+                .hueRotation(.degrees(animate ? 0 : -40))
+                .animation(Animation.easeInOut(duration: 10.2), value: animate)
+             
+            Image("Background")
+                .resizable()
+                .scaledToFit()
+                .edgesIgnoringSafeArea(.all)
+                .blur(radius: animate ? 10 : 20)
+                .opacity(animate ? 0.3 : 0)
+                .rotationEffect(.degrees(animate ? -120 : 290))
+                .scaleEffect(animate ? 6.3 : 4.0)
+                .hueRotation(.degrees(animate ? -10 : 50))
+                .animation(Animation.easeInOut(duration: 10.2), value: animate)
+            HStack {
+                VStack {
+                    Spacer()
+                }
+                Spacer()
+            }
+            .background(colorScheme == .dark ? Color.black : Color.white)
+            .opacity(animate ? 0 : 1)
+            .animation(Animation.easeInOut(duration: 1.2), value: animate)
+
+            VStack {
+                Spacer()
+                ZStack {
+                    VStack{
+                        Image("AppLogo")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 80, height: 80)
+                            .foregroundColor(.white)
+                            .scaleEffect(animate ? 1.1 : 0)
+                            .opacity(animate ? 1 : 0)
+                            .animation(Animation.easeInOut(duration: 0.6), value: animate)
+                            .onAppear {
+                                animate = true
+                            }
+                            .padding(.bottom, 170)
+                    }
+                    .frame(height: animate2 ? 65 : nil)
+                    .padding(.top, animate2 ? 170 : 0)
+                    VStack{
+                        Text("BoxHelper")
+                            .font(.system(size: 65, weight: .bold))
+                    }
+                    .frame(height: animate2 ? 65 : nil , alignment: .center)
+                    .padding(.top, animate2 ? 170 : 0)
+                    .animation(Animation.easeInOut(duration: 1.9), value: animate2)
+                    .ignoresSafeArea(.all)
+                    //.frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .frame(maxHeight: animate2 ? 80 : .infinity)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .frame(height: animate2 ? 240 : nil, alignment: .center)
+                .animation(Animation.easeInOut(duration: 1.9), value: animate2)
+                .ignoresSafeArea(.all)
+                if animate2 {
+                    VStack{
+                            ScrollView{
+                                ForEach(updates, id: \.self) { update in
+                                    if #available(iOS 26.0, *) {
+                                        HStack{
+                                            HStack {
+                                                Text(update)
+                                                    .multilineTextAlignment(.leading)
+                                            }
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                            .padding()
+                                            
+                                        }
+                                        .frame(maxWidth: 800)
+                                        .glassEffect(in: .rect(cornerRadius: 10.0))
+                                    } else {
+                                        
+                                        HStack{
+                                            HStack {
+                                                Text(update)
+                                                    .multilineTextAlignment(.leading)
+                                            }
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                            .padding()
+                                            
+                                        }
+                                        .background(.ultraThinMaterial)
+                                        .frame(maxWidth: 800)
+                                        .cornerRadius( 10.0)
+                                    }
+                                    
+                                    
+                                }
+                            }
+                            .cornerRadius(10)
+                            .padding(.horizontal, 5)
+                            .opacity(animate3 ? 1 : 0)
+                            .animation(Animation.easeInOut(duration: 0.6), value: animate3)
+                        Spacer()
+                    }
+                    .frame(height: !animate2 ? 0 : nil)
+                    .animation(Animation.easeInOut(duration: 1.5), value: animate2)
+                }
+                Spacer()
+                if animate2 {
+                    Button("Fortfahren") {
+                        withAnimation {
+                            self.isActive = false
+                        }
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(.blue)
+                    .padding(.top, 20)
+                    .padding(.bottom, 40)
+                }
+            }
+            .frame(alignment: .center)
+            .ignoresSafeArea(.all)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .frame(alignment: .center)
+        .ignoresSafeArea(.all)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.5) {
+                withAnimation {
+                    //self.isActive = false
+                    animate2 = true
+                }
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 5.8) {
+                withAnimation {
+                    //self.isActive = false
+                    animate3 = true
+                }
+            }
+        }
+    }
+}
+
+ /*
+struct LaunchScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        LaunchScreen()
+    }
+}
+*/
+
+#Preview {
+    LaunchScreen(isActive: Binding(get: { true }, set: { _ in }))
+}
