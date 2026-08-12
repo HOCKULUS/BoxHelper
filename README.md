@@ -67,7 +67,7 @@ BoxHelper is built for:
 
 - Xcode
 - iOS/iPadOS simulator or a compatible test device
-- Local Swift package `Zip`, because the Xcode project references `../../Zip-master`
+- Local Swift package `Zip`, because the Xcode project references `../../Zip-Dependency`
 
 ### Open the Project
 
