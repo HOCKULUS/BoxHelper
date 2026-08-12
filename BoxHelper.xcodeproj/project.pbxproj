@@ -318,7 +318,7 @@
 			);
 			mainGroup = 848DE9E72C9623CF001BFEE1;
 			packageReferences = (
-				842894D9302D0A9D003C0E8C /* XCLocalSwiftPackageReference "../../Documents/Apps/GitHub Release/Zip-master" */,
+				84289939302D144D003C0E8C /* XCLocalSwiftPackageReference "../Zip-Dependency" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 848DE9F12C9623CF001BFEE1 /* Products */;
@@ -632,8 +632,9 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = BoxHelper/BoxHelper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 32;
 				DEVELOPMENT_ASSET_PATHS = "\"BoxHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
@@ -660,7 +661,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = de.hockulus.boxhelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -687,8 +688,9 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = BoxHelper/BoxHelperRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 32;
 				DEVELOPMENT_ASSET_PATHS = "\"BoxHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
@@ -715,7 +717,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
-				MARKETING_VERSION = 2.0.1;
+				MARKETING_VERSION = 2.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = de.hockulus.boxhelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -807,9 +809,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		842894D9302D0A9D003C0E8C /* XCLocalSwiftPackageReference "../../Documents/Apps/GitHub Release/Zip-master" */ = {
+		84289939302D144D003C0E8C /* XCLocalSwiftPackageReference "../Zip-Dependency" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../Documents/Apps/GitHub Release/Zip-master";
+			relativePath = "../Zip-Dependency";
 		};
 /* End XCLocalSwiftPackageReference section */
 
