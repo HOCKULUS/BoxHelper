@@ -94,5 +94,3 @@ BoxHelper is available for free in the Productivity category on the App Store. C
 BoxHelper is licensed under the GNU Affero General Public License v3.0 (`AGPL-3.0`).
 
 If you build on this project, modify it, or create your own version from it, please make your derived work available to others under the same license. This keeps improvements open, supports the project, and helps the community build one better app together instead of many closed or unfinished copies.
-
-License information for included third-party components is stored in `BoxHelper/Licenses/`.
