@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		84074B462CDD006D00D24109 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84074B452CDD006700D24109 /* UserDefaultsManager.swift */; };
 		84289444302D0663003C0E8C /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 84289443302D0663003C0E8C /* InfoPlist.xcstrings */; };
-		84289445302D0663003C0E8C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84289442302D0663003C0E8C /* Info.plist */; };
 		84289446302D0663003C0E8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428943F302D0663003C0E8C /* ContentView.swift */; };
 		8428944C302D067A003C0E8C /* changes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8428944B302D067A003C0E8C /* changes.txt */; };
 		8428944D302D067A003C0E8C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84289447302D067A003C0E8C /* Functions.swift */; };
 		8428944E302D067A003C0E8C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84289448302D067A003C0E8C /* Extensions.swift */; };
 		8428944F302D067A003C0E8C /* AppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84289449302D067A003C0E8C /* AppIntents.swift */; };
 		84289450302D067A003C0E8C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428944A302D067A003C0E8C /* DataManager.swift */; };
+		842894D8302D0923003C0E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842894D5302D0923003C0E8C /* Assets.xcassets */; };
+		84289575302D0BED003C0E8C /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 84289574302D0BED003C0E8C /* AppIcon.icon */; };
 		842DCC6C2CBE6D85006A5263 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DCC6B2CBE6D81006A5263 /* Functions.swift */; };
-		843F94F62F376820001ABD15 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 843F94F52F376820001ABD15 /* AppIcon.icon */; };
 		845A0D522CB56C2200F960EF /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 845A0D512CB56C2200F960EF /* Zip */; };
 		8468B57F2DA304B600D03DC9 /* Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468B57E2DA304B300D03DC9 /* Swipe.swift */; };
 		846C2A302DE33FBD005F63A7 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C2A2F2DE33FB7005F63A7 /* Tip.swift */; };
@@ -26,7 +26,6 @@
 		848085F12D00B44C0045BFA0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848085F02D00B4460045BFA0 /* DataManager.swift */; };
 		848DE9F42C9623CF001BFEE1 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DE9F32C9623CF001BFEE1 /* Main.swift */; };
 		848DE9F62C9623CF001BFEE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DE9F52C9623CF001BFEE1 /* ContentView.swift */; };
-		848DE9FA2C9623D0001BFEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848DE9F92C9623D0001BFEE1 /* Assets.xcassets */; };
 		84B238A42D201E2300554602 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B238A32D201E1D00554602 /* ItemRow.swift */; };
 		84B238A62D22A09600554602 /* changes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84B238A52D22A08F00554602 /* changes.txt */; };
 		84B37AC42D3EE53D003C0025 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B37AC22D3EE539003C0025 /* Extensions.swift */; };
@@ -67,9 +66,10 @@
 		84289449302D067A003C0E8C /* AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntents.swift; sourceTree = "<group>"; };
 		8428944A302D067A003C0E8C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		8428944B302D067A003C0E8C /* changes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = changes.txt; sourceTree = "<group>"; };
+		842894D5302D0923003C0E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84289574302D0BED003C0E8C /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		842DCC6B2CBE6D81006A5263 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		843847D22CAD5A8A0049481F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		843F94F52F376820001ABD15 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		8468B57E2DA304B300D03DC9 /* Swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe.swift; sourceTree = "<group>"; };
 		846C2A2F2DE33FB7005F63A7 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		84728FD12E172CB100C9B75E /* AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntents.swift; sourceTree = "<group>"; };
@@ -79,7 +79,6 @@
 		848DE9F02C9623CF001BFEE1 /* BoxHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848DE9F32C9623CF001BFEE1 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		848DE9F52C9623CF001BFEE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		848DE9F92C9623D0001BFEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849341E22CD6D04C00A9FF6F /* BoxHelperRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoxHelperRelease.entitlements; sourceTree = "<group>"; };
 		84957A4C2CCE4E36008D11E8 /* BoxHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B238A32D201E1D00554602 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
@@ -204,8 +203,8 @@
 				848085F02D00B4460045BFA0 /* DataManager.swift */,
 				847DE0D52CA95E0100413D34 /* SearchBar.swift */,
 				84B238A52D22A08F00554602 /* changes.txt */,
-				848DE9F92C9623D0001BFEE1 /* Assets.xcassets */,
-				843F94F52F376820001ABD15 /* AppIcon.icon */,
+				842894D5302D0923003C0E8C /* Assets.xcassets */,
+				84289574302D0BED003C0E8C /* AppIcon.icon */,
 			);
 			path = BoxHelper;
 			sourceTree = "<group>";
@@ -319,7 +318,7 @@
 			);
 			mainGroup = 848DE9E72C9623CF001BFEE1;
 			packageReferences = (
-				84654E362F08141700D31749 /* XCLocalSwiftPackageReference "../../Zip-master" */,
+				842894D9302D0A9D003C0E8C /* XCLocalSwiftPackageReference "../../Documents/Apps/GitHub Release/Zip-master" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 848DE9F12C9623CF001BFEE1 /* Products */;
@@ -346,14 +345,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84289444302D0663003C0E8C /* InfoPlist.xcstrings in Resources */,
-				84289445302D0663003C0E8C /* Info.plist in Resources */,
 				8428944C302D067A003C0E8C /* changes.txt in Resources */,
 				84B238A62D22A09600554602 /* changes.txt in Resources */,
-				843F94F62F376820001ABD15 /* AppIcon.icon in Resources */,
+				842894D8302D0923003C0E8C /* Assets.xcassets in Resources */,
 				84FF3B1D2CB87F0300660E9E /* Localizable.xcstrings in Resources */,
 				84F8600B2D84F2F000BF3009 /* LaunchScreen.storyboard in Resources */,
 				84CB99652CC8CF76009AC2CB /* InfoPlist.xcstrings in Resources */,
-				848DE9FA2C9623D0001BFEE1 /* Assets.xcassets in Resources */,
+				84289575302D0BED003C0E8C /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,13 +443,16 @@
 		841B92662DC02D2D0012A574 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.hockulus.BoxHelperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,13 +463,16 @@
 		841B92672DC02D2D0012A574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.hockulus.BoxHelperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -803,9 +807,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		84654E362F08141700D31749 /* XCLocalSwiftPackageReference "../../Zip-master" */ = {
+		842894D9302D0A9D003C0E8C /* XCLocalSwiftPackageReference "../../Documents/Apps/GitHub Release/Zip-master" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../Zip-master";
+			relativePath = "../../Documents/Apps/GitHub Release/Zip-master";
 		};
 /* End XCLocalSwiftPackageReference section */
 
