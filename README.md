@@ -45,11 +45,11 @@ AI has made it easier than ever to create copycats of management and organizatio
 ## App Icons
 
 <p>
-  <img src="docs/readme-assets/app-icon-classic.png" alt="Classic BoxHelper app icon" width="72">
-  <img src="docs/readme-assets/app-icon-first.png" alt="First BoxHelper app icon" width="72">
-  <img src="docs/readme-assets/app-icon-real.png" alt="Real BoxHelper app icon" width="72">
-  <img src="docs/readme-assets/app-icon-skeuomorph.png" alt="Skeuomorph BoxHelper app icon" width="72">
-  <img src="docs/readme-assets/app-icon-pride.png" alt="Pride BoxHelper app icon" width="72">
+  <img src="BoxHelper/Assets.xcassets/AppIcons/Preview/AppLogoClassicPreview.imageset/AppIconClassicPreview.png" alt="Classic BoxHelper app icon" width="72">
+  <img src="BoxHelper/Assets.xcassets/AppIcons/Preview/AppLogoFirstPreview.imageset/AppIconPreview.png" alt="First BoxHelper app icon" width="72">
+  <img src="BoxHelper/Assets.xcassets/AppIcons/Preview/AppLogoRealPreview.imageset/AppIconRealPreview.png" alt="Real BoxHelper app icon" width="72">
+  <img src="BoxHelper/Assets.xcassets/AppIcons/Preview/AppLogoSkeuomorphPreview.imageset/AppIconSkeuomorph3Preview.png" alt="Skeuomorph BoxHelper app icon" width="72">
+  <img src="BoxHelper/Assets.xcassets/AppIcons/Preview/AppLogoPridePreview.imageset/AppIconPridePreview.png" alt="Pride BoxHelper app icon" width="72">
 </p>
 
 ## Platform Support
