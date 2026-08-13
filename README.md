@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/readme-assets/app-icon.png" alt="BoxHelper app icon" width="140">
+  <img src="BoxHelper/Assets.xcassets/AppLogo.imageset/AppIcon-iOS-Default-1024x1024@2x_4.png" alt="BoxHelper app icon" width="140">
 </p>
 
 <h1 align="center">BoxHelper</h1>
