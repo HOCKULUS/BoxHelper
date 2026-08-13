@@ -5,7 +5,7 @@
 <h1 align="center">BoxHelper</h1>
 
 <p align="center">
-  Organize boxes, items, and storage locations with photos, QR codes, backups, CSV import/export and Shortcuts automation.
+  Organize boxes, items and storage locations with photos, QR codes, backups, CSV import/export and Shortcuts automation.
 </p>
 
 <p align="center">
@@ -22,22 +22,22 @@
 
 
 
-BoxHelper is a SwiftUI app for keeping track of boxes, items, and storage locations. It is built for moving, home storage, basement shelves, office inventory, storage units, or any setup where you want to know what you own, where it is, and how to find it again without opening every box.
+BoxHelper is a SwiftUI app for keeping track of boxes, items and storage locations. It is built for moving, home storage, basement shelves, office inventory, storage units, or any setup where you want to know what you own, where it is and how to find it again without opening every box.
 
-Each box can get its own QR code. Scan the code later to jump directly to the box and see what is inside. BoxHelper also supports photos, tags, deeper search, backups, CSV import/export, and automation through Siri Shortcuts and App Intents.
+Each box can get its own QR code. Scan the code later to jump directly to the box and see what is inside. BoxHelper also supports photos, tags, deeper search, backups, CSV import/export and automation through Siri Shortcuts and App Intents.
 
 I no longer want to hide this app away. I want everyone to have the chance to become part of BoxHelper, whether that means actively contributing to this repository, learning from the code, or building their own version from it.
 
-AI has made it easier than ever to create copycats of management and organization apps. Instead of spreading effort across a thousand half-finished clones, I believe it is better to combine resources, ideas, and real-world feedback into one strong app that can become genuinely useful for more people.
+AI has made it easier than ever to create copycats of management and organization apps. Instead of spreading effort across a thousand half-finished clones, I believe it is better to combine resources, ideas and real-world feedback into one strong app that can become genuinely useful for more people.
 
 ## Features
 
-- Manage boxes, items, and locations
-- Generate, customize, print, and scan QR codes for boxes
-- Add photos to boxes, items, and locations
-- Search across boxes, items, locations, tags, and linked content
-- Create, export, share, import, merge, and restore ZIP backups
-- Import and export CSV files for boxes, items, and locations
+- Manage boxes, items and locations
+- Generate, customize, print and scan QR codes for boxes
+- Add photos to boxes, items and locations
+- Search across boxes, items, locations, tags and linked content
+- Create, export, share, import, merge and restore ZIP backups
+- Import and export CSV files for boxes, items and locations
 - Use Siri Shortcuts and App Intents for recurring workflows
 - Customize QR code labels and app appearance
 - Keep inventory data under user control on device
@@ -91,4 +91,4 @@ BoxHelper is available for free in the Productivity category on the App Store. C
 
 BoxHelper is licensed under the GNU Affero General Public License v3.0 (`AGPL-3.0`).
 
-If you build on this project, modify it, or create your own version from it, please make your derived work available to others under the same license. This keeps improvements open, supports the project, and helps the community build one better app together instead of many closed or unfinished copies.
+If you build on this project, modify it, or create your own version from it, please make your derived work available to others under the same license. This keeps improvements open, supports the project and helps the community build one better app together instead of many closed or unfinished copies.
