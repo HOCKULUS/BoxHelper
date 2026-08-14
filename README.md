@@ -9,7 +9,32 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.apple.com/us/app/boxhelper/id6737223705">View on the App Store</a>
+
+  <a href="https://apps.apple.com/us/app/boxhelper/id6737223705?itscg=30200&itsct=apps_box_badge&mttnsubad=6737223705">
+    <img
+      src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1729641600"
+      alt="Download on the App Store"
+      width="246"
+      height="82"
+    />
+  </a>
+
+  <br />
+
+  <a href="https://github.com/HOCKULUS/BoxHelper/blob/main/LICENSE">
+    <img
+      src="https://img.shields.io/badge/License-AGPLv3-blue.svg"
+      alt="AGPLv3 License"
+    />
+  </a>
+
+  <a href="https://github.com/HOCKULUS/BoxHelper">
+    <img
+      src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg"
+      alt="Open Source"
+    />
+  </a>
+
 </p>
 
 <p align="center">
