@@ -105,6 +105,11 @@ struct LicenseListViewZoom: View {
     var body: some View {
         NavigationView {
                 ScrollView {
+                    Link("GitHub", destination: URL(string: "https://github.com/jtbandes/SpacePOD/blob/main/SpacePOD/ZoomableScrollView.swift")!)
+                        .foregroundColor(selectedColor)
+                        .padding()
+                        .background(Color.gray.opacity(0.2))
+                        .cornerRadius(8)
                     Text(License.content)
                         .padding()
                     ScrollView {
@@ -117,11 +122,6 @@ struct LicenseListViewZoom: View {
                             .frame(maxHeight: 200) // Limit the height of the TextField
                     }
                     .frame(maxHeight: 300)
-                    Link("GitHub", destination: URL(string: "https://github.com/jtbandes/SpacePOD/blob/main/SpacePOD/ZoomableScrollView.swift")!)
-                        .foregroundColor(selectedColor)
-                        .padding()
-                        .background(Color.gray.opacity(0.2))
-                        .cornerRadius(8)
                     Spacer()
                 }
                 .navigationTitle(License.title)

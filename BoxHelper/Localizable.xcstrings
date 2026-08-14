@@ -3,7 +3,103 @@
   "strings" : {
     "" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        },
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : ""
@@ -19,7 +115,109 @@
     },
     "               " : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "               "
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "               "
@@ -30,7 +228,109 @@
     },
     "                              " : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "                              "
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "                              "
@@ -153,7 +453,109 @@
     },
     "%@" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
@@ -164,7 +566,109 @@
     },
     "%lld" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -175,6 +679,30 @@
     },
     "%lld / %lld" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -185,6 +713,84 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$lld / %2$lld"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld"
           }
         }
       },
@@ -192,6 +798,30 @@
     },
     "%lld / %lld " : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -202,6 +832,84 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$lld / %2$lld "
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld / %lld "
           }
         }
       },
@@ -797,6 +1505,18 @@
     },
     "%lld images total, %lld remaining" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجمالي الصور %lld، المتبقي %lld"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মোট %lldটি ছবি, %lldটি বাকি"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -845,6 +1565,12 @@
             "value" : "%lld images au total, %lld restantes"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कुल %lld इमेज, %lld बाकी"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -885,6 +1611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "共 %lld 张图片，剩余 %lld 张"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共 %lld 張圖片，剩餘 %lld 張"
           }
         }
       }
@@ -1010,6 +1742,30 @@
     "%lld Objekte" : {
       "extractionState" : "stale",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld عنصر"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldটি আইটেম"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld položek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld objekter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1017,6 +1773,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Items"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Items"
@@ -1034,10 +1796,58 @@
             "value" : "%lld Objets"
           }
         },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld objets"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld आइटम"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld oggetti"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個のアイテム"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld objecten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld obiektów"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld objetos"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "%lld Предмети"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 个物件"
           }
         },
         "zh-HK" : {
@@ -1050,12 +1860,223 @@
       "shouldTranslate" : false
     },
     "© 2024-%@ HOCKULUS" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ HOCKULUS"
+          }
+        }
+      }
     },
     "© 2024-%@ Tobias Heine" : {
       "extractionState" : "stale",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2024-%@ Tobias Heine"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "© 2024-%@ Tobias Heine"
@@ -1066,7 +2087,109 @@
     },
     "♥" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "♥"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "♥"
@@ -1190,6 +2313,7 @@
     },
     "⚙️ Settings have been reworked again and grouped into clearer categories to make everything easier to find." : {
       "comment" : "Description of a setting category in the settings tab.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -1417,6 +2541,7 @@
     },
     "✏️ Made a typo? No issue. Items created while setting up a new box can now be edited permanently." : {
       "comment" : "Description of a new update feature: permanently editable items created while setting up a new box.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -2209,6 +3334,7 @@
     },
     "🏷️ QR codes are now more customizable. You can print location colors or reduce the QR code size to make room for other content. The relevant settings are now linked directly in the create tab for quick access." : {
       "comment" : "A bullet point in the update list describing a new feature related to QR codes.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -2436,6 +3562,7 @@
     },
     "👉 Switch faster and more intuitively between tabs in the first screen using horizontal swipes." : {
       "comment" : "Description of a feature that allows users to switch between tabs in the first screen using horizontal swipes.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -2888,6 +4015,7 @@
     },
     "📄 New CSV import and export give you more flexibility. You can now bring in existing data from other apps and tools." : {
       "comment" : "A bullet point in the update list describing a new feature: importing and exporting CSV data.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -3228,6 +4356,7 @@
     },
     "📦 Boxes can now be moved in bulk to a new location. Simply open the current location to get started." : {
       "comment" : "A description of a feature in the app, such as a new functionality or a change to an existing one.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -3455,6 +4584,7 @@
     },
     "🔁 The image viewer has been redesigned. You can swipe between images, reorder them via drag and drop, delete them, and view additional image details." : {
       "comment" : "Description of an update that adds more controls and features to the image viewer.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -3801,6 +4931,7 @@
     },
     "🔢 The box naming scheme now supports custom numbering. If you work together with others, you can simply start with a higher number." : {
       "comment" : "Description of an update that explains how the box naming scheme now supports custom numbering.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -4028,6 +5159,7 @@
     },
     "🖼️ A new images tab gives you a fast overview of all your content. Images from boxes and items are shown together so searching is easier." : {
       "comment" : "A new images tab gives you a fast overview of all your content. Images from boxes and items are shown together so searching is easier.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -4142,6 +5274,7 @@
     },
     "🗑️ Items and locations can now be deleted directly from their lists, just like boxes. Locations that still contain boxes are protected." : {
       "comment" : "A string describing a feature in the app.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -4595,6 +5728,7 @@
     },
     "🧭 Deep navigation has been added. Locations and items can now be opened and edited directly from within a box." : {
       "comment" : "A feature added to the app that allows users to open and edit locations and items directly from within a box.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -4935,6 +6069,7 @@
     },
     "🚀 Overall app performance has been improved." : {
       "comment" : "A description of an update, such as an improvement to the app's performance.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -5275,6 +6410,7 @@
     },
     "🛡️ Nothing is lost. Any input you make while creating content is preserved across app restarts until you explicitly save it. You can continue exactly where you left off." : {
       "comment" : "Description of an update, emphasizing data preservation across app restarts.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -5725,7 +6861,109 @@
     },
     "1" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1"
@@ -6184,7 +7422,109 @@
     },
     "3D" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3D"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "3D"
@@ -6307,7 +7647,109 @@
     },
     "5" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "5"
@@ -6318,7 +7760,109 @@
     },
     "10" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "10"
@@ -6553,7 +8097,109 @@
     },
     "25" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "25"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "25"
@@ -6564,7 +8210,109 @@
     },
     "50" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "50"
@@ -6575,7 +8323,109 @@
     },
     "100" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "100"
@@ -6586,7 +8436,109 @@
     },
     "200" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "200"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "200"
@@ -6597,6 +8549,18 @@
     },
     "500" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "500"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "500"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6639,6 +8603,12 @@
             "value" : "500"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "500"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6676,6 +8646,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "500"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "500"
@@ -6685,6 +8661,18 @@
     },
     "1000" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1000"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1000"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6727,6 +8715,12 @@
             "value" : "1000"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1000"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6764,6 +8758,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1000"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "1000"
@@ -6773,6 +8773,18 @@
     },
     "2000" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2000"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2000"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6810,6 +8822,12 @@
           }
         },
         "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2000"
+          }
+        },
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "2000"
@@ -6856,21 +8874,123 @@
             "state" : "translated",
             "value" : "2000"
           }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2000"
+          }
         }
       }
     },
     "A sneak peek into the future of the app." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لمحة سريعة عن مستقبل التطبيق."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অ্যাপের ভবিষ্যতের এক ঝলক।"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malá ukázka budoucnosti aplikace."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et lille smugkig på appens fremtid."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ein kleiner Blick in die Zukunft der App."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A sneak peek into the future of the app."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un pequeño vistazo al futuro de la app."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un aperçu de l’avenir de l’app."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un aperçu de l’avenir de l’app."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऐप के भविष्य की एक छोटी झलक।"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uno sguardo in anteprima al futuro dell’app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリの未来を少しだけ先取り。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een kleine vooruitblik op de toekomst van de app."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mały wgląd w przyszłość aplikacji."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma pequena antevisão do futuro da app."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Невеликий погляд у майбутнє застосунку."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用未来的小小预览。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "應用未來的小小預覽。"
           }
         }
       },
@@ -7790,6 +9910,18 @@
       "comment" : "A button that adds images to a feedback report.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة صور"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ছবি যোগ করুন"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7832,6 +9964,12 @@
             "value" : "Ajouter des images"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "इमेज जोड़ें"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7872,6 +10010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加图片"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入圖片"
           }
         }
       }
@@ -8217,6 +10361,18 @@
       "comment" : "A description of the images that can be added to a feedback report.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف لقطات شاشة أو صوراً تساعد في شرح المشكلة."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সমস্যাটি ব্যাখ্যা করতে সাহায্য করে এমন স্ক্রিনশট বা ছবি যোগ করুন।"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8259,6 +10415,12 @@
             "value" : "Ajoutez des captures d’écran ou des photos qui aident à expliquer le problème."
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "समस्या समझाने में मदद करने वाले स्क्रीनशॉट या फ़ोटो जोड़ें।"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8299,6 +10461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加有助于说明问题的截图或照片。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入有助說明問題的截圖或相片。"
           }
         }
       }
@@ -8532,6 +10700,18 @@
       "comment" : "A message displayed in a confirmation dialog that is shown when the user deletes a feedback draft.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ستتم إزالة كل النصوص والصور المحددة من المسودة المحفوظة."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সংরক্ষিত খসড়া থেকে সব লেখা এবং নির্বাচিত ছবি মুছে ফেলা হবে।"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8574,6 +10754,12 @@
             "value" : "Tout le texte et les images sélectionnées seront supprimés du brouillon enregistré."
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सेव किए गए ड्राफ़्ट से सारा टेक्स्ट और चुनी गई इमेज हटा दी जाएँगी।"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8614,6 +10800,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "所有文本和所选图片都将从已保存的草稿中移除。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有文字和已選圖片都會從已儲存的草稿中移除。"
           }
         }
       }
@@ -9801,6 +11993,18 @@
     },
     "always" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دائماً"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সবসময়"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9843,6 +12047,12 @@
             "value" : "toujours"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "हमेशा"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9883,6 +12093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "始终"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "永遠"
           }
         }
       }
@@ -12300,6 +14516,18 @@
       "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبل الإرسال"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "পাঠানোর আগে"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12342,6 +14570,12 @@
             "value" : "Avant l’envoi"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "भेजने से पहले"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12382,6 +14616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发送前"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳送前"
           }
         }
       }
@@ -13903,6 +16143,126 @@
         }
       }
     },
+    "BoxHelper ist jetzt Open Source!" : {
+      "comment" : "A title of a card announcing that BoxHelper is now open source.",
+      "isCommentAutoGenerated" : true,
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "أصبح BoxHelper الآن مفتوح المصدر!"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper এখন ওপেন সোর্স!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper je nyní open source!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper er nu open source!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper ist jetzt Open Source!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper is now open source!"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper is now open source!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "¡BoxHelper ahora es open source!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper est maintenant open source !"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper est maintenant open source !"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper अब ओपन सोर्स है!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper è ora open source!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper はオープンソースになりました！"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper is nu open source!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper jest teraz open source!"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O BoxHelper agora é open source!"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper тепер з відкритим кодом!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper 现已开源！"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "BoxHelper 現已開源！"
+          }
+        }
+      }
+    },
     "BoxHelper unlocks powerful accessibility and lets you automate your inventory like never before." : {
       "localizations" : {
         "ar" : {
@@ -14242,6 +16602,18 @@
     "Bug" : {
       "comment" : "Feedback category bug",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خلل"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বাগ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14284,6 +16656,12 @@
             "value" : "Bug"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बग"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14324,6 +16702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "错误"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "錯誤"
           }
         }
       }
@@ -14443,6 +16827,18 @@
     },
     "Cache" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14480,6 +16876,12 @@
           }
         },
         "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache"
+          }
+        },
+        "hi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cache"
@@ -14526,11 +16928,29 @@
             "state" : "translated",
             "value" : "缓存"
           }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache"
+          }
         }
       }
     },
     "Camera" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكاميرا"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ক্যামেরা"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14573,6 +16993,12 @@
             "value" : "Caméra"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कैमरा"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14613,6 +17039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "相机"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相機"
           }
         }
       }
@@ -15073,6 +17505,18 @@
       "comment" : "The cancel button in a confirmation dialog.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বাতিল"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15115,6 +17559,12 @@
             "value" : "Annuler"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रद्द करें"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15152,6 +17602,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
@@ -15947,6 +18403,18 @@
     },
     "Choose how the input fokus should be handled." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر كيفية التعامل مع تركيز الإدخال."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ইনপুট ফোকাস কীভাবে পরিচালনা করা হবে তা বেছে নিন।"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15987,6 +18455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisissez comment le focus du champ doit être géré."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "इनपुट फ़ोकस कैसे संभाला जाए, यह चुनें।"
           }
         },
         "it" : {
@@ -16030,11 +18504,29 @@
             "state" : "translated",
             "value" : "选择输入焦点的处理方式。"
           }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇如何處理輸入焦點。"
+          }
         }
       }
     },
     "Choose which source should be used when adding an image to a new item." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر المصدر الذي سيُستخدم عند إضافة صورة إلى عنصر جديد."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "নতুন আইটেমে ছবি যোগ করার সময় কোন উৎস ব্যবহার করা হবে তা বেছে নিন।"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16077,6 +18569,12 @@
             "value" : "Choisissez la source à utiliser lors de l’ajout d’une image à un nouvel objet."
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नए आइटम में इमेज जोड़ते समय कौन सा स्रोत उपयोग करना है, यह चुनें।"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16117,6 +18615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "选择向新项目添加图片时要使用的来源。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇新增項目圖片時要使用的來源。"
           }
         }
       }
@@ -16798,6 +19302,18 @@
       "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متابعة"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "চালিয়ে যান"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16840,6 +19356,12 @@
             "value" : "Continuer"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "जारी रखें"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16880,6 +19402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "继续"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續"
           }
         }
       }
@@ -21078,16 +23606,40 @@
     "Damit ich weiß, ob sich der Aufwand, die laufenden Kosten und meine Zeit lohnen, bin ich auf dein Feedback angewiesen." : {
       "extractionState" : "stale",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لكي أعرف ما إذا كان الجهد والتكاليف المستمرة ووقتي تستحق العناء، فأنا أعتمد على ملاحظاتك."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "এই পরিশ্রম, চলমান খরচ এবং আমার সময় সার্থক কি না জানতে আমি আপনার মতামতের উপর নির্ভর করি।"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyvíjím BoxHelper bez sledování v aplikaci, reklamy nebo externího financování."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For at vide, om indsatsen, de løbende omkostninger og min tid er det værd, er jeg afhængig af din feedback."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Damit ich weiß, ob sich der Aufwand, die laufenden Kosten und meine Zeit lohnen, bin ich auf dein Feedback angewiesen."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To know whether the effort, ongoing costs and my time are worth it, I rely on your feedback."
           }
         },
         "es" : {
@@ -21102,10 +23654,28 @@
             "value" : "Pour savoir si l’effort, les coûts permanents et mon temps en valent la peine, j’ai besoin de vos retours."
           }
         },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour savoir si l’effort, les coûts permanents et mon temps en valent la peine, j’ai besoin de vos retours."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मेहनत, लगातार होने वाली लागतें और मेरा समय सार्थक हैं या नहीं, यह जानने के लिए मैं आपकी प्रतिक्रिया पर निर्भर हूँ।"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Per capire se l’impegno, i costi continui e il mio tempo valgono davvero la pena, ho bisogno del tuo feedback."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "労力、継続的なコスト、そして私の時間に見合う価値があるかを知るために、皆さんのフィードバックが必要です。"
           }
         },
         "nl" : {
@@ -21114,10 +23684,34 @@
             "value" : "Om te weten of de inspanning, de doorlopende kosten en mijn tijd de moeite waard zijn, ben ik afhankelijk van jouw feedback."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aby wiedzieć, czy wysiłek, bieżące koszty i mój czas są tego warte, potrzebuję Twojej opinii."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para saber se o esforço, os custos contínuos e o meu tempo valem a pena, dependo do teu feedback."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щоб зрозуміти, чи варті зусилля, постійні витрати та мій час, я залежу від твоїх відгуків."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "为了让我知道这些投入、持续成本和时间是否值得，我非常依赖你的反馈。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為了了解這些投入、持續成本和我的時間是否值得，我需要你的回饋。"
           }
         }
       },
@@ -22605,6 +25199,18 @@
       "comment" : "A button that deletes a draft of a feedback.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف المسودة"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "খসড়া মুছুন"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22647,6 +25253,12 @@
             "value" : "Supprimer le brouillon"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ड्राफ़्ट हटाएँ"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22687,6 +25299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除草稿"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除草稿"
           }
         }
       }
@@ -23591,6 +26209,18 @@
       "comment" : "A confirmation dialog that lets the user delete a feedback draft.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تريد حذف هذه المسودة؟"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "এই খসড়াটি মুছবেন?"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23633,6 +26263,12 @@
             "value" : "Supprimer ce brouillon ?"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "यह ड्राफ़्ट हटाएँ?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23673,6 +26309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除此草稿？"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除此草稿？"
           }
         }
       }
@@ -24125,8 +26767,140 @@
         }
       }
     },
+    "Der Code ist unter der GNU AGPLv3 auf GitHub veröffentlicht." : {
+      "comment" : "A description of the open-source nature of BoxHelper.",
+      "isCommentAutoGenerated" : true,
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تم نشر الكود على GitHub بموجب GNU AGPLv3."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "কোডটি GNU AGPLv3 লাইসেন্সের অধীনে GitHub-এ প্রকাশিত।"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kód je zveřejněn na GitHubu pod licencí GNU AGPLv3."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Koden er udgivet på GitHub under GNU AGPLv3."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Der Code ist unter der GNU AGPLv3 auf GitHub veröffentlicht."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The code is published on GitHub under the GNU AGPLv3."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "The code is published on GitHub under the GNU AGPLv3."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "El código está publicado en GitHub bajo la GNU AGPLv3."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le code est publié sur GitHub sous licence GNU AGPLv3."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Le code est publié sur GitHub sous licence GNU AGPLv3."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "कोड GNU AGPLv3 के तहत GitHub पर प्रकाशित है।"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Il codice è pubblicato su GitHub sotto GNU AGPLv3."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "コードは GNU AGPLv3 の下で GitHub に公開されています。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "De code is op GitHub gepubliceerd onder de GNU AGPLv3."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Kod jest opublikowany na GitHubie na licencji GNU AGPLv3."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "O código está publicado no GitHub sob a GNU AGPLv3."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Код опубліковано на GitHub за ліцензією GNU AGPLv3."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "代码已在 GitHub 以 GNU AGPLv3 授权发布。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "程式碼已在 GitHub 以 GNU AGPLv3 授權發布。"
+          }
+        }
+      }
+    },
     "Describe your request as precisely as possible." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صف طلبك بأكبر قدر ممكن من الدقة."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আপনার অনুরোধটি যতটা সম্ভব নির্ভুলভাবে বর্ণনা করুন।"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24169,6 +26943,12 @@
             "value" : "Décrivez votre demande aussi précisément que possible."
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपने अनुरोध को यथासंभव स्पष्ट रूप से बताएँ।"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24209,6 +26989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请尽可能准确地描述你的请求。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請盡可能準確描述你的請求。"
           }
         }
       }
@@ -24439,6 +27225,126 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "這些圖片儲存在 App 中，但未指派給任何物件。"
+          }
+        }
+      }
+    },
+    "Dir fehlt eine Funktion? Erstelle ein Issue auf GitHub oder entwickle die Funktionen selbst und trage so zur Entwicklung der App bei. Du bestimmst die Zukunft von BoxHelper.❤️" : {
+      "comment" : "A description of the benefits of contributing to BoxHelper.",
+      "isCommentAutoGenerated" : true,
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "هل تفتقد ميزة؟ أنشئ Issue على GitHub أو طوّر الميزات بنفسك وساهم في تطوير التطبيق. أنت تحدد مستقبل BoxHelper.❤️"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "কোনো ফিচার নেই? GitHub-এ একটি issue তৈরি করুন বা নিজেই ফিচারটি তৈরি করে অ্যাপের উন্নয়নে অবদান রাখুন। BoxHelper-এর ভবিষ্যৎ আপনি নির্ধারণ করেন।❤️"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Chybí ti nějaká funkce? Vytvoř issue na GitHubu nebo ji vyviň sám a přispěj tak k vývoji aplikace. Budoucnost BoxHelperu určuješ ty.❤️"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mangler du en funktion? Opret et issue på GitHub, eller udvikl funktionen selv og bidrag til appens udvikling. Du bestemmer BoxHelpers fremtid.❤️"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Dir fehlt eine Funktion? Erstelle ein Issue auf GitHub oder entwickle die Funktionen selbst und trage so zur Entwicklung der App bei. Du bestimmst die Zukunft von BoxHelper.❤️"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is there a feature you're missing? Create an issue on GitHub or develop the features yourself and help shape the app's future. You get to decide the future of BoxHelper.❤️"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Missing a feature? Create an issue on GitHub or build the features yourself and contribute to the app’s development. You decide the future of BoxHelper.❤️"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "¿Te falta una función? Crea un issue en GitHub o desarrolla las funciones tú mismo y contribuye al desarrollo de la app. Tú decides el futuro de BoxHelper.❤️"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Il te manque une fonctionnalité ? Crée une issue sur GitHub ou développe toi-même les fonctionnalités et contribue ainsi au développement de l’app. C’est toi qui décides de l’avenir de BoxHelper.❤️"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Il te manque une fonctionnalité ? Crée une issue sur GitHub ou développe toi-même les fonctionnalités et contribue ainsi au développement de l’app. C’est toi qui décides de l’avenir de BoxHelper.❤️"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "कोई फ़ीचर चाहिए? GitHub पर issue बनाएँ या फ़ीचर खुद विकसित करें और ऐप के विकास में योगदान दें। BoxHelper का भविष्य आप तय करते हैं।❤️"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ti manca una funzione? Crea una issue su GitHub oppure sviluppa tu stesso le funzioni e contribuisci allo sviluppo dell’app. Sei tu a decidere il futuro di BoxHelper.❤️"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "必要な機能がありませんか？GitHubでIssueを作成するか、自分で機能を開発してアプリの開発に貢献してください。BoxHelperの未来はあなたが決めます。❤️"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mis je een functie? Maak een issue aan op GitHub of ontwikkel de functies zelf en draag zo bij aan de ontwikkeling van de app. Jij bepaalt de toekomst van BoxHelper.❤️"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Brakuje Ci funkcji? Utwórz issue na GitHubie albo zbuduj funkcje samodzielnie i przyczyń się do rozwoju aplikacji. To Ty decydujesz o przyszłości BoxHelpera.❤️"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Falta-te uma funcionalidade? Cria um issue no GitHub ou desenvolve tu mesmo as funcionalidades e contribui para o desenvolvimento da app. Tu decides o futuro do BoxHelper.❤️"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Бракує функції? Створи issue на GitHub або розроби функції самостійно й долучися до розвитку застосунку. Ти визначаєш майбутнє BoxHelper.❤️"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "缺少某个功能？在 GitHub 创建 Issue，或自己开发功能，为应用的开发作出贡献。BoxHelper 的未来由你决定。❤️"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "缺少某個功能？在 GitHub 建立 Issue，或自己開發功能，為應用的開發作出貢獻。BoxHelper 的未來由你決定。❤️"
           }
         }
       }
@@ -26143,6 +29049,18 @@
     },
     "Explore more great apps" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استكشف المزيد من التطبيقات الرائعة"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আরও দারুণ অ্যাপ দেখুন"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26185,6 +29103,12 @@
             "value" : "Découvrez d’autres excellentes apps"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "और बेहतरीन ऐप्स देखें"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26225,6 +29149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "探索更多优秀 App"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "探索更多精彩 App"
           }
         }
       }
@@ -26906,6 +29836,18 @@
       "comment" : "A label for a picker that lets the user select a category for their feedback.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فئة الملاحظات"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ফিডব্যাকের বিভাগ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26948,6 +29890,12 @@
             "value" : "Catégorie de retour"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ीडबैक श्रेणी"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26988,6 +29936,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "反馈类别"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回饋類別"
           }
         }
       }
@@ -28513,6 +31467,18 @@
       "comment" : "A button label that toggles the \"fragile\" state of an item.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قابل للكسر"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ভঙ্গুর"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28555,6 +31521,12 @@
             "value" : "Fragile"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नाज़ुक"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28592,6 +31564,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "易碎"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "易碎"
@@ -28713,6 +31691,18 @@
     },
     "Gallery" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المعرض"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "গ্যালারি"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28755,6 +31745,12 @@
             "value" : "Galerie"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "गैलरी"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28795,6 +31791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "图库"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相簿"
           }
         }
       }
@@ -32521,6 +35523,118 @@
         }
       }
     },
+    "GNU AGPLv3" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GNU AGPLv3"
+          }
+        }
+      }
+    },
     "Go to App Settings → Storage & Backup. Create a backup and share it. Currently, this is the only way to share Boxes." : {
       "comment" : "Answer about how to share boxes",
       "localizations" : {
@@ -32638,6 +35752,18 @@
       "comment" : "A label describing an item as being heavy.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ثقيل"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ভারী"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32678,6 +35804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lourd"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "भारी"
           }
         },
         "it" : {
@@ -32721,12 +35853,30 @@
             "state" : "translated",
             "value" : "沉重"
           }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沉重"
+          }
         }
       }
     },
     "Help" : {
       "comment" : "Feedback category help",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مساعدة"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সহায়তা"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32769,6 +35919,12 @@
             "value" : "Aide"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मदद"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32809,6 +35965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "帮助"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說明"
           }
         }
       }
@@ -33816,6 +36978,12 @@
             "state" : "translated",
             "value" : "我开发 BoxHelper 时没有使用 App 内追踪、广告或外部资助。"
           }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我開發 BoxHelper 時不使用 App 內追蹤、廣告或外部資助。"
+          }
         }
       }
     },
@@ -34164,6 +37332,18 @@
     "Idea" : {
       "comment" : "Feedback category idea",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فكرة"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ধারণা"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34206,6 +37386,12 @@
             "value" : "Idée"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "विचार"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34243,6 +37429,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "想法"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "想法"
@@ -36309,6 +39501,18 @@
     },
     "Item image source" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مصدر صورة العنصر"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আইটেম ছবির উৎস"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36349,6 +39553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Source de l’image de l’objet"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आइटम इमेज स्रोत"
           }
         },
         "it" : {
@@ -36392,11 +39602,29 @@
             "state" : "translated",
             "value" : "项目图片来源"
           }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目圖片來源"
+          }
         }
       }
     },
     "Item Images" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صور العناصر"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আইটেমের ছবি"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36439,6 +39667,12 @@
             "value" : "Images de l’objet"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आइटम इमेज"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36479,6 +39713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "项目图片"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "項目圖片"
           }
         }
       }
@@ -42283,6 +45523,18 @@
       "comment" : "A title for an alert that informs the user that the mail app is not available on their device.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد غير متاح"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "মেইল উপলভ্য নয়"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42325,6 +45577,12 @@
             "value" : "Mail n’est pas disponible"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मेल उपलब्ध नहीं है"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42365,6 +45623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "邮件不可用"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "郵件無法使用"
           }
         }
       }
@@ -44187,6 +47451,18 @@
     },
     "never" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أبداً"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "কখনও নয়"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44229,6 +47505,12 @@
             "value" : "jamais"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "कभी नहीं"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44269,6 +47551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "从不"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "永不"
           }
         }
       }
@@ -44387,6 +47675,18 @@
     },
     "New item field focus" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تركيز حقل العنصر الجديد"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "নতুন আইটেম ফিল্ডের ফোকাস"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44427,6 +47727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Focus du champ du nouvel objet"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नए आइटम फ़ील्ड का फ़ोकस"
           }
         },
         "it" : {
@@ -44470,11 +47776,29 @@
             "state" : "translated",
             "value" : "新项目字段焦点"
           }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新項目欄位焦點"
+          }
         }
       }
     },
     "New item focus" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تركيز العنصر الجديد"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "নতুন আইটেমের ফোকাস"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44517,6 +47841,12 @@
             "value" : "Focus du nouvel objet"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नए आइटम का फ़ोकस"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44557,6 +47887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新项目焦点"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新項目焦點"
           }
         }
       }
@@ -44913,6 +48249,18 @@
       "comment" : "A message displayed when the user tries to send feedback via mail but no mail account is configured on their device.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يتم إعداد أي حساب بريد على هذا الجهاز. يرجى إعداد البريد أولاً."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "এই ডিভাইসে কোনো মেইল অ্যাকাউন্ট সেট করা নেই। অনুগ্রহ করে আগে Mail সেট আপ করুন।"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44955,6 +48303,12 @@
             "value" : "Aucun compte Mail n’est configuré sur cet appareil. Configurez d’abord Mail."
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "इस डिवाइस पर कोई मेल खाता कॉन्फ़िगर नहीं है। कृपया पहले Mail सेट करें।"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -44995,6 +48349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此设备上未配置邮件账户。请先设置邮件。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此裝置尚未設定郵件帳戶。請先設定 Mail。"
           }
         }
       }
@@ -45452,6 +48812,18 @@
       "comment" : "A label describing an item that is not fragile.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير قابل للكسر"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ভঙ্গুর নয়"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45492,6 +48864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Non fragile"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नाज़ुक नहीं"
           }
         },
         "it" : {
@@ -45535,6 +48913,12 @@
             "state" : "translated",
             "value" : "不易碎"
           }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非易碎"
+          }
         }
       }
     },
@@ -45542,6 +48926,18 @@
       "comment" : "A menu item label that indicates an item is not heavy.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس ثقيلاً"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ভারী নয়"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45584,6 +48980,12 @@
             "value" : "Non lourd"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "भारी नहीं"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -45621,6 +49023,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不重"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "不重"
@@ -46539,6 +49947,18 @@
     },
     "Open feedback form" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتح نموذج الملاحظات"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ফিডব্যাক ফর্ম খুলুন"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46581,6 +50001,12 @@
             "value" : "Ouvrir le formulaire de retour"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "फ़ीडबैक फ़ॉर्म खोलें"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -46621,6 +50047,124 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打开反馈表单"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟回饋表單"
+          }
+        }
+      }
+    },
+    "Open Source" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Source"
           }
         }
       }
@@ -47431,6 +50975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "为了让我知道这些投入、持续成本和时间是否真的值得，我非常依赖你的反馈。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為了了解這些投入、持續成本和我的時間是否真的值得，我需要你的回饋。"
           }
         }
       }
@@ -48561,6 +52111,18 @@
     },
     "Rebuild tags from all images" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة بناء الوسوم من كل الصور"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সব ছবি থেকে ট্যাগ পুনর্নির্মাণ করুন"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48603,6 +52165,12 @@
             "value" : "Reconstruire les tags à partir de toutes les images"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सभी इमेज से टैग फिर से बनाएँ"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -48643,6 +52211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "根据所有图片重建标签"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從所有圖片重新建立標籤"
           }
         }
       }
@@ -49211,6 +52785,126 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "啟動時記住上次搜尋"
+          }
+        }
+      }
+    },
+    "Repository öffnen" : {
+      "comment" : "A link to open the repository.",
+      "isCommentAutoGenerated" : true,
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "فتح المستودع"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "রিপোজিটরি খুলুন"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otevřít repozitář"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Åbn repository"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Repository öffnen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Repository"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Open repository"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abrir repositorio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ouvrir le dépôt"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ouvrir le dépôt"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "रिपॉज़िटरी खोलें"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Apri repository"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "リポジトリを開く"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Repository openen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Otwórz repozytorium"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Abrir repositório"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Відкрити репозиторій"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "打开仓库"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "開啟儲存庫"
           }
         }
       }
@@ -51130,6 +54824,18 @@
     },
     "Scanning images…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ فحص الصور…"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ছবি স্ক্যান করা হচ্ছে…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51172,6 +54878,12 @@
             "value" : "Analyse des images…"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "इमेज स्कैन की जा रही हैं…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -51212,6 +54924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在扫描图片…"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在掃描圖片…"
           }
         }
       }
@@ -52240,6 +55958,18 @@
       "comment" : "A button that sends feedback.",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرسال"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "পাঠান"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52282,6 +56012,12 @@
             "value" : "Envoyer"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "भेजें"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52322,6 +56058,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发送"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傳送"
           }
         }
       }
@@ -58043,6 +61785,18 @@
     },
     "smart" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ذكي"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "স্মার্ট"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58085,6 +61839,12 @@
             "value" : "intelligent"
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "स्मार्ट"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -58125,6 +61885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "智能"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "智慧"
           }
         }
       }
@@ -60089,7 +63855,109 @@
     },
     "Swift ZIP Framework" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift ZIP Framework"
+          }
+        },
+        "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Swift ZIP Framework"
@@ -63398,6 +67266,7 @@
     },
     "Update abgeschlossen" : {
       "comment" : "A message displayed to the user after the app has finished updating.",
+      "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
         "ar" : {
@@ -66248,6 +70117,18 @@
       "extractionState" : "stale",
       "isCommentAutoGenerated" : true,
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سيتم تجهيز نصك وصورك والسياق التقني في مسودة بريد إلى appstore@hockulus.de."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আপনার লেখা, ছবি এবং প্রযুক্তিগত প্রেক্ষাপট appstore@hockulus.de-এ পাঠানোর জন্য একটি মেইল খসড়ায় প্রস্তুত করা হবে।"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66290,6 +70171,12 @@
             "value" : "Votre texte, vos images et le contexte technique seront préparés dans un brouillon de mail à appstore@hockulus.de."
           }
         },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "आपका टेक्स्ट, इमेज और तकनीकी संदर्भ appstore@hockulus.de के लिए एक मेल ड्राफ़्ट में तैयार किए जाएँगे।"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -66330,6 +70217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你的文字、图片和技术上下文将被整理到发往 appstore@hockulus.de 的邮件草稿中。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你的文字、圖片和技術背景資料會整理成寄往 appstore@hockulus.de 的郵件草稿。"
           }
         }
       }

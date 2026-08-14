@@ -26,13 +26,13 @@ struct LicenseListViewZip: View {
     var body: some View {
         NavigationView {
                 ScrollView {
-                    Text(License.content)
-                        .padding()
                     Link("GitHub", destination: URL(string: "https://github.com/marmelroy/Zip")!)
                         .foregroundColor(selectedColor)
                         .padding()
                         .background(Color.gray.opacity(0.2))
                         .cornerRadius(8)
+                    Text(License.content)
+                        .padding()
                     Spacer()
                 }
                 .navigationTitle("Swift ZIP Framework")
