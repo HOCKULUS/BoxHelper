@@ -19,15 +19,20 @@
     />
   </a>
 
-  <br />
-
+  <br/>
+  <br/>
+  <a href="https://developer.apple.com/swift/">
+    <img src="https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white" alt="Swift 6">
+  </a>
+  <a href="https://developer.apple.com/xcode/swiftui/">
+    <img src="https://img.shields.io/badge/SwiftUI-Framework-007AFF?logo=swift&logoColor=white" alt="SwiftUI">
+  </a>
   <a href="https://github.com/HOCKULUS/BoxHelper/blob/main/LICENSE">
     <img
       src="https://img.shields.io/badge/License-AGPLv3-blue.svg"
       alt="AGPLv3 License"
     />
   </a>
-
   <a href="https://github.com/HOCKULUS/BoxHelper">
     <img
       src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg"
