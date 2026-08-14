@@ -55,6 +55,9 @@ struct SettingsLicenseView: View {
             }
             Section(header: Text("Lizenzen")){
                 List {
+                    NavigationLink(destination: LicenseListViewBoxHelper()) {
+                        Text("BoxHelper")
+                    }
                     NavigationLink(destination: LicenseListViewZip()) {
                         Text("Swift ZIP Framework")
                     }

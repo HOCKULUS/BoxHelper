@@ -504,15 +504,15 @@ class UserDefaultsManager {
     }
     
     func loadLauchscreen() -> Bool {
-        if UserDefaults.standard.object(forKey: "showLauchscreen3") != nil {
-            return UserDefaults.standard.bool(forKey: "showLauchscreen3")
+        if UserDefaults.standard.object(forKey: "showLauchscreen4") != nil {
+            return UserDefaults.standard.bool(forKey: "showLauchscreen4")
         } else {
             return true // Default fallback
         }
     }
     
     func saveLauchscreen(_ value: Bool) {
-        UserDefaults.standard.set(value, forKey: "showLauchscreen3")
+        UserDefaults.standard.set(value, forKey: "showLauchscreen4")
     }
 
     func saveDynamicQRCode(_ value: Bool) {

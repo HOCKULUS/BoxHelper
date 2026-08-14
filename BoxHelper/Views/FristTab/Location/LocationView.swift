@@ -452,6 +452,7 @@ struct LocationsView: View {
                                 .frame(maxWidth: .infinity, alignment: .center)
                         }
                         .listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
                     }
                     HStack {
                         Spacer()

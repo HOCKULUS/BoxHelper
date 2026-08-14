@@ -418,6 +418,7 @@ struct SettingsView: View {
                         }
                     }
                     .navigationTitle(Text("Settings"))
+                    
                     Button(action: {
                         if let url = URL(string: "https://apps.apple.com/de/app/boxhelper/id6737223705?action=write-review") {
                             UIApplication.shared.open(url)
@@ -437,6 +438,32 @@ struct SettingsView: View {
                             }
                             .padding(.trailing, 10) // Mehr Abstand zum Text
                             Text("Write a review ♥")
+                                .foregroundStyle(Color.primary)
+                            Spacer()
+                            Image(systemName: "arrow.up.forward.app.fill")
+                                .foregroundStyle(Color.primary.opacity(0.5))
+                        }
+                        
+                    }
+                    Button(action: {
+                        if let url = URL(string: "https://github.com/HOCKULUS/BoxHelper") {
+                            UIApplication.shared.open(url)
+                        }
+                    }) {
+                        HStack {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 6, style: .continuous) // Abgerundete Ecken statt Kreis
+                                    .fill(Color.black)
+                                    .frame(width: 30, height: 30) // Beibehaltung der Box-Größe
+                                
+                                Image("GitHub_Invertocat_White")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 20, height: 20) // Größeres Icon für bessere Sichtbarkeit
+                                    .foregroundColor(.white)
+                            }
+                            .padding(.trailing, 10) // Mehr Abstand zum Text
+                            Text("Repository öffnen")
                                 .foregroundStyle(Color.primary)
                             Spacer()
                             Image(systemName: "arrow.up.forward.app.fill")
@@ -509,20 +536,14 @@ struct SettingsView: View {
                             .font(.footnote)
                             .foregroundColor(.gray)
                             .frame(maxWidth: .infinity, alignment: .center)
-                        /*
-                        Text("Open Source Software")
+                        Text("Open Source")
                             .font(.footnote)
                             .foregroundColor(.gray)
                             .frame(maxWidth: .infinity, alignment: .center)
-                        Text("Lizenziert unter der")
+                        Text("GNU AGPLv3")
                             .font(.footnote)
                             .foregroundColor(.gray)
                             .frame(maxWidth: .infinity, alignment: .center)
-                        Text("GNU AGPL v3")
-                            .font(.footnote)
-                            .foregroundColor(.gray)
-                            .frame(maxWidth: .infinity, alignment: .center)
-                         */
                         Text("♥")
                             .font(.footnote)
                             .foregroundColor(.gray)

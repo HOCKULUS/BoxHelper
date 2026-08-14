@@ -427,6 +427,7 @@ struct BoxView: View {
                                 .frame(maxWidth: .infinity, alignment: .center)
                         }
                         .listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
                     }
                     //.onDelete(perform: removeBoxes)
                     

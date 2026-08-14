@@ -13,7 +13,6 @@ struct LaunchScreen: View {
     @State private var showLogo = false
     @State private var showUpdateText = false
     @State private var showContinueButton = false
-    @State private var showAutoAdvanceProgress = false
     @State private var isExiting = false
     @State private var contentOffsetY: CGFloat = 0
     @State private var contentOpacity = 1.0
@@ -26,15 +25,12 @@ struct LaunchScreen: View {
     @State private var showIntroVisuals = false
     @State private var isScreenSaverVisible = false
     @State private var inactivityWorkItem: DispatchWorkItem?
-    @State private var autoAdvanceWorkItem: DispatchWorkItem?
-    @State private var autoAdvanceProgress = 0.0
     @Binding var isActive : Bool
     private let inactivityTimeout: TimeInterval = 60
-    private let introRevealDuration: TimeInterval = 1.2
-    private let introBackgroundDuration: TimeInterval = 1.7
-    private let introTextFadeDuration: TimeInterval = 0.95
-    private let stageTransitionDuration: TimeInterval = 1.15
-    private let exitDuration: TimeInterval = 1.0
+    private let introRevealDuration: TimeInterval = 1.5
+    private let introTextFadeDuration: TimeInterval = 1.5
+    private let stageTransitionDuration: TimeInterval = 1.5
+    private let exitDuration: TimeInterval = 1.5
 
     // Human readable app version shown in the update stage.
     private var appVersionText: String {
@@ -43,22 +39,8 @@ struct LaunchScreen: View {
         return "v\(version)"
     }
 
-    // Static update list shown in the launch changelog section.
-    let updates = [
-        NSLocalizedString("🛡️ Nothing is lost. Any input you make while creating content is preserved across app restarts until you explicitly save it. You can continue exactly where you left off.", comment: ""),
-        NSLocalizedString("📄 New CSV import and export give you more flexibility. You can now bring in existing data from other apps and tools.", comment: ""),
-        NSLocalizedString("✏️ Made a typo? No issue. Items created while setting up a new box can now be edited permanently.", comment: ""),
-        NSLocalizedString("🔢 The box naming scheme now supports custom numbering. If you work together with others, you can simply start with a higher number.", comment: ""),
-        NSLocalizedString("🏷️ QR codes are now more customizable. You can print location colors or reduce the QR code size to make room for other content. The relevant settings are now linked directly in the create tab for quick access.", comment: ""),
-        NSLocalizedString("🖼️ A new images tab gives you a fast overview of all your content. Images from boxes and items are shown together so searching is easier.", comment: ""),
-        NSLocalizedString("👉 Switch faster and more intuitively between tabs in the first screen using horizontal swipes.", comment: ""),
-        NSLocalizedString("🗑️ Items and locations can now be deleted directly from their lists, just like boxes. Locations that still contain boxes are protected.", comment: ""),
-        NSLocalizedString("🧭 Deep navigation has been added. Locations and items can now be opened and edited directly from within a box.", comment: ""),
-        NSLocalizedString("🔁 The image viewer has been redesigned. You can swipe between images, reorder them via drag and drop, delete them, and view additional image details.", comment: ""),
-        NSLocalizedString("📦 Boxes can now be moved in bulk to a new location. Simply open the current location to get started.", comment: ""),
-        NSLocalizedString("⚙️ Settings have been reworked again and grouped into clearer categories to make everything easier to find.", comment: ""),
-        NSLocalizedString("🚀 Overall app performance has been improved.", comment: "")
-    ]
+    // Ziel des Repository-Buttons in der Open-Source-Ankündigung.
+    private let repositoryURL = URL(string: "https://github.com/HOCKULUS/BoxHelper")!
 
     var body: some View {
         ZStack {
@@ -110,6 +92,7 @@ struct LaunchScreen: View {
             .offset(y: isExiting ? -500 : 0)
             .opacity(isExiting ? 0 : 1)
             .animation(.easeInOut(duration: exitDuration), value: isExiting)
+            .animation(.easeInOut(duration: introTextFadeDuration), value: didTapWeiter)
 
             // Phase 1/2: App-Name-Layer (gleiche Phase wie Logo).
             VStack {
@@ -124,7 +107,7 @@ struct LaunchScreen: View {
                 }
                 Spacer()
             }
-            .padding(.top, didTapWeiter ? 155 : nil)
+            .padding(.top, didTapWeiter ?  155 : nil)
             .padding(.bottom, !didTapWeiter ? 16 : nil)
             .ignoresSafeArea(.all)
             //.frame(height: didTapWeiter ? 80 : nil)
@@ -132,77 +115,58 @@ struct LaunchScreen: View {
             .offset(y: isExiting ? -500 : 0)
             .opacity(isExiting ? 0 : 1)
             .animation(.easeInOut(duration: exitDuration), value: isExiting)
+            .animation(.easeInOut(duration: introTextFadeDuration), value: didTapWeiter)
 
             // Phase 2/3: Changelog + CTA-Bereich.
             VStack {
                 // Phase 2: Nach "Weiter" werden Version + Updates eingeblendet.
-                if didTapWeiter {
-                    VStack {
-                        Text(appVersionText)
-                            .foregroundStyle(.secondary)
-                        ScrollView(showsIndicators: false) {
-                            ForEach(updates, id: \.self) { update in
-                                if #available(iOS 26.0, *) {
-                                    HStack {
-                                        HStack {
-                                            Text(update)
-                                                .multilineTextAlignment(.leading)
-                                        }
-                                        .frame(maxWidth: .infinity, alignment: .leading)
-                                        .padding()
-                                    }
-                                    .frame(maxWidth: 800)
-                                    .glassEffect(in: .rect(cornerRadius: 10.0))
-                                    //.glassEffect()
-                                } else {
-                                    HStack {
-                                        HStack {
-                                            Text(update)
-                                                .multilineTextAlignment(.leading)
-                                        }
-                                        .frame(maxWidth: .infinity, alignment: .leading)
-                                        .padding()
-                                    }
-                                    .background(.ultraThinMaterial)
-                                    .frame(maxWidth: 800)
-                                    .cornerRadius(10.0)
-                                }
-                            }
-                        }
-                        .cornerRadius(10)
-                        .padding(.horizontal, 5)
+                VStack {
+                    Text(appVersionText)
+                        .foregroundStyle(.secondary)
+                        .opacity(didTapWeiter ? 1 : 0)
+                        .offset(y: didTapWeiter ? 0 : 100)
+                        .animation(.easeInOut(duration: introTextFadeDuration), value: didTapWeiter)
+                    ScrollView(showsIndicators: false) {
+                        LaunchOpenSourceAnnouncement(repositoryURL: repositoryURL)
                     }
-                    .padding(.top, 250)
-                    .transition(.move(edge: .bottom).combined(with: .opacity))
-                    .offset(y: isExiting ? -500 : 0)
-                    .opacity(isExiting ? 0 : 1)
-                    .animation(.easeInOut(duration: exitDuration), value: isExiting)
+                    .cornerRadius(10)
+                    .padding(.horizontal, 8)
+                    .opacity(didTapWeiter ? 1 : 0)
+                    .offset(y: didTapWeiter ? 0 : 100)
+                    .animation(.easeInOut(duration: introTextFadeDuration), value: didTapWeiter)
+                }
+                .padding(.top, 250)
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+                .offset(y: isExiting ? -500 : 0)
+                .opacity(isExiting ? 0 : 1)
+                .opacity(didTapWeiter ? 1 : 0)
+                .animation(.easeInOut(duration: exitDuration), value: isExiting)
+                .animation(.easeInOut(duration: introTextFadeDuration), value: didTapWeiter)
+                if didTapWeiter {
 
                 }
                 else {
                     Spacer()
                 }
-
-                Group {
-                    if showUpdateText && !didTapWeiter {
-                        Text("Update abgeschlossen")
-                            .font(.title3.weight(.semibold))
-                    } else if showAutoAdvanceProgress && !didTapWeiter {
-                        introProgressBar
-                    } else {
-                        Color.clear
+                /*
+                    Group {
+                        if showUpdateText && !didTapWeiter {
+                            Text("Update abgeschlossen")
+                                .font(.title3.weight(.semibold))
+                        } else {
+                            Color.clear
+                        }
                     }
-                }
-                .frame(height: 30)
-                .padding(.top, 20)
-                .offset(y: isExiting ? 500 : 0)
-                .animation(.easeInOut(duration: exitDuration), value: isExiting)
-                .opacity(isExiting ? 0 : 1)
-
+                    .frame(height: 30)
+                    .padding(.top, 20)
+                    .offset(y: isExiting ? 500 : 0)
+                    .animation(.easeInOut(duration: exitDuration), value: isExiting)
+                    .opacity(isExiting ? 0 : 1)
+                */
                 Button(didTapWeiter ? "Fortfahren" : "Weiter") {
                     if didTapWeiter {
                         withAnimation(.easeInOut(duration: stageTransitionDuration)) {
-                            backgroundMotionProgress = 0.102
+                            backgroundMotionProgress = 1.102
                             backgroundWobbleIntensity = 0.75
                         }
                         startExitFlow()
@@ -219,6 +183,7 @@ struct LaunchScreen: View {
                 .disabled(!showContinueButton || isExiting)
                 .offset(y: isExiting ? 500 : 0)
                 .animation(.easeInOut(duration: exitDuration), value: isExiting)
+                .animation(.easeInOut(duration: introTextFadeDuration), value: didTapWeiter)
                 .opacity(isExiting ? 0 : 1)
             }
 
@@ -245,7 +210,6 @@ struct LaunchScreen: View {
             showLogo = false
             showUpdateText = false
             showContinueButton = false
-            showAutoAdvanceProgress = false
             showIntroVisuals = false
             didTapWeiter = false
             isExiting = false
@@ -256,72 +220,19 @@ struct LaunchScreen: View {
             backgroundMotionProgress = 0.0
             backgroundWobbleIntensity = 0.0
             backgroundExitProgress = 0.0
-            autoAdvanceProgress = 0.0
 
-            // Phase 1: Ruhiger Einstieg nur mit Ladebalken.
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
-                withAnimation(.easeInOut(duration: introTextFadeDuration)) {
-                    showAutoAdvanceProgress = true
-                }
-                startAutoAdvance()
-            }
+            revealIntroContent()
 
             scheduleInactivityTimer()
         }
         .onDisappear {
             inactivityWorkItem?.cancel()
-            autoAdvanceWorkItem?.cancel()
         }
     }
 
-    private var introProgressBar: some View {
-        ProgressView(value: autoAdvanceProgress, total: 1.0)
-            .progressViewStyle(.linear)
-            .tint(.white)
-            .frame(width: 220)
-    }
-
-    private func startAutoAdvance() {
-        autoAdvanceWorkItem?.cancel()
-        autoAdvanceProgress = 0.0
-        scheduleNextProgressStep()
-    }
-
-    private func scheduleNextProgressStep() {
+    private func revealIntroContent() {
         guard !didTapWeiter, !isExiting else { return }
 
-        let remainingProgress = max(0.0, 1.0 - autoAdvanceProgress)
-        guard remainingProgress > 0 else {
-            finishProgressAndRevealVisuals()
-            return
-        }
-
-        let progressStep = min(remainingProgress, Double.random(in: 0.14 ... 0.33))
-        let progressDelay = Double.random(in: 0.25 ... 0.7)
-        let progressAnimationDuration = Double.random(in: 0.18 ... 0.45)
-
-        let workItem = DispatchWorkItem {
-            withAnimation(.easeInOut(duration: progressAnimationDuration)) {
-                autoAdvanceProgress += progressStep
-            }
-
-            if autoAdvanceProgress >= 0.999 {
-                autoAdvanceProgress = 1.0
-                finishProgressAndRevealVisuals()
-            } else {
-                scheduleNextProgressStep()
-            }
-        }
-
-        autoAdvanceWorkItem = workItem
-        DispatchQueue.main.asyncAfter(deadline: .now() + progressDelay, execute: workItem)
-    }
-
-    private func finishProgressAndRevealVisuals() {
-        guard !didTapWeiter, !isExiting else { return }
-        autoAdvanceWorkItem?.cancel()
-
-        showAutoAdvanceProgress = false
         showUpdateText = true
 
         withAnimation(.easeInOut(duration: stageTransitionDuration)) {
@@ -340,8 +251,8 @@ struct LaunchScreen: View {
         withAnimation(.easeInOut(duration: stageTransitionDuration)) {
             // Keep the stage change subtle: a little extra zoom and some rotation only.
             showContinueButton = true
-            backgroundMotionProgress = 0.58
-            backgroundWobbleIntensity = 0.30
+            backgroundMotionProgress = 0.04
+            backgroundWobbleIntensity = 0.70
         }
         withAnimation(.easeOut(duration: stageTransitionDuration)) {
             backgroundWobbleIntensity = 0.22
@@ -352,7 +263,6 @@ struct LaunchScreen: View {
         guard !isExiting else { return }
         isExiting = true
         inactivityWorkItem?.cancel()
-        autoAdvanceWorkItem?.cancel()
 
         // Phase 3: Content fährt nach oben und blendet aus.
         withAnimation(.easeInOut(duration: exitDuration)) {
@@ -364,7 +274,7 @@ struct LaunchScreen: View {
         // Phase 3: Hintergrund bekommt finalen Impuls und blendet aus.
         withAnimation(.easeInOut(duration: 1.5)) {
             backgroundWobbleIntensity = 1.0
-            backgroundMotionProgress = 1.15
+            backgroundMotionProgress = 1.8
             backgroundExitProgress = 1.0
             isActive = false
         }
@@ -388,6 +298,59 @@ struct LaunchScreen: View {
         }
         inactivityWorkItem = workItem
         DispatchQueue.main.asyncAfter(deadline: .now() + inactivityTimeout, execute: workItem)
+    }
+}
+
+private struct LaunchOpenSourceAnnouncement: View {
+    let repositoryURL: URL
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 18) {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("BoxHelper ist jetzt Open Source!")
+                    .font(.title2.weight(.bold))
+
+                Text("Der Code ist unter der GNU AGPLv3 auf GitHub veröffentlicht.")
+                    .multilineTextAlignment(.leading)
+                    .foregroundStyle(.primary)
+                Text("Dir fehlt eine Funktion? Erstelle ein Issue auf GitHub oder entwickle die Funktionen selbst und trage so zur Entwicklung der App bei. Du bestimmst die Zukunft von BoxHelper.❤️")
+                    .multilineTextAlignment(.leading)
+                    .foregroundStyle(.secondary)
+            }
+
+            Link(destination: repositoryURL) {
+                HStack(spacing: 8) {
+                    Image("GitHub_Invertocat_White")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 18, height: 18)
+
+                    Text("Repository öffnen")
+                }
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.borderedProminent)
+            .tint(.blue)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding()
+        .modifier(LaunchAnnouncementCardStyle())
+    }
+}
+
+private struct LaunchAnnouncementCardStyle: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 26.0, *) {
+            content
+                .frame(maxWidth: 800)
+                .glassEffect(in: .rect(cornerRadius: 10.0))
+        } else {
+            content
+                .background(.ultraThinMaterial)
+                .frame(maxWidth: 800)
+                .cornerRadius(10.0)
+        }
     }
 }
 
@@ -576,16 +539,16 @@ private struct LaunchLoopingBackground: View {
                     let phaseTravel = motion * 0.95 // Gesamtfortschritt der Layer im Loop (wird von "motion" getrieben).
                     let p = (phaseTravel + offset).truncatingRemainder(dividingBy: 1.0) // Normierte Phase 0...1 pro Layer inkl. Startversatz.
                     let eased = p * p // Einfaches Ease-In: frühe Phase langsamer, spätere schneller.
-                    let zoomBoost = 0.35 + motion * 0.85 // Verstärkt Zoomdynamik, je weiter die Animation fortgeschritten ist.
-                    let scale = (2.9 + eased * 6.2 * zoomBoost) + exitProgress * 1.8 // Tatsächlicher Zoomfaktor inkl. zusätzlichem Exit-Push.
-                    let blur = (8.0 + eased * 12.0 * zoomBoost) + exitProgress * 14.0 // Unschärfe nimmt beim "nach vorn kommen" und beim Exit zu.
+                    let zoomBoost = 0.35 + motion * 0.95 // Verstärkt Zoomdynamik, je weiter die Animation fortgeschritten ist.
+                    let scale = (4.9 + eased * 6.2 * zoomBoost) + exitProgress * 1.8 // Tatsächlicher Zoomfaktor inkl. zusätzlichem Exit-Push.
+                    let blur = (6.0 + eased * 12.0 * zoomBoost) + exitProgress * 14.0 // Unschärfe nimmt beim "nach vorn kommen" und beim Exit zu.
                     let baseOpacity = (0.52 - eased * 0.28) + Double(index) * 0.02 // Grundsichtbarkeit pro Layer (mit leichter Layer-Staffelung).
                     let fadeIn = min(1.0, max(0.0, p / 0.22)) // Sanftes Einblenden am Anfang des Layer-Zyklus.
                     let fadeOut = min(1.0, max(0.0, (1.0 - p) / 0.28)) // Sanftes Ausblenden gegen Ende des Layer-Zyklus.
                     let opacity = baseOpacity * fadeIn * (fadeOut * fadeOut) * layerVisibility * (1.0 - exitProgress) // Finale Opazität inkl. globaler Sichtbarkeit und Exit-Fade.
                     let sway = sin((progress + Double(index) * 0.9) * .pi * 2.0) // Seitliches/rotatorisches "Taumeln" je Layer.
-                    let rotation = (Double(index) * 14.0) + sway * (16.0 * wobble) + eased * (3.0 * wobble) // Endrotation: Basiswinkel + Taumeln + leichter Vorwärtsdrall.
-                    let hue = (Double(index) * 42.0) + eased * 105.0 + motion * 20.0 - 10.0 // Farbverschiebung pro Layer über Zeit/Phase.
+                    let rotation = (Double(index) * 24.0) + motion * 115.0 + sway * (16.0 * wobble) + eased * (3.0 * wobble) // Endrotation: Basiswinkel + Taumeln + leichter Vorwärtsdrall.
+                    let hue = (Double(index) * 120.0) + eased * 105.0 + motion * 20.0 - 10.0 // Farbverschiebung pro Layer über Zeit/Phase.
 
                     Image("Background")
                         .resizable()
