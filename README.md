@@ -34,6 +34,9 @@
       alt="Open Source"
     />
   </a>
+  <a href="#">
+  <img src="https://img.shields.io/badge/AI-Supported-8A2BE2?logo=openai&logoColor=white" alt="AI Supported">
+ </a>
 
 </p>
 
