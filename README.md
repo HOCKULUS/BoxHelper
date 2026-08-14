@@ -10,7 +10,7 @@
 
 <p align="center">
 
-  <a href="https://apps.apple.com/us/app/boxhelper/id6737223705?itscg=30200&itsct=apps_box_badge&mttnsubad=6737223705">
+  <a href="https://apps.apple.com/app/boxhelper/id6737223705?itscg=30200&itsct=apps_box_badge&mttnsubad=6737223705">
     <img
       src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1729641600"
       alt="Download on the App Store"
