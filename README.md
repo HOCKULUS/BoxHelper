@@ -24,7 +24,7 @@
   <a href="https://developer.apple.com/swift/">
     <img src="https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white" alt="Swift 6">
   </a>
-  <a href="https://developer.apple.com/xcode/swiftui/">
+  <a href="#">
     <img src="https://img.shields.io/badge/SwiftUI-Framework-007AFF?logo=swift&logoColor=white" alt="SwiftUI">
   </a>
   <a href="https://github.com/HOCKULUS/BoxHelper/blob/main/LICENSE">
