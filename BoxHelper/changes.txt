@@ -1,0 +1,163 @@
+2026-02 – Aktuelle Änderungen
+- LocationDetailView zeigt nun die Kisten der Location mit optionaler Deep-Navigation; Aufrufer auf neues Binding angepasst (LocationView, BoxDetailView).
+- CSV-Import: Dateiname im Sheet angezeigt, Vorschau der ersten 5 Zeilen und vereinheitlichter importer (ZIP/CSV werden über einen gemeinsamen fileImporter gesteuert).
+- Siri/Shortcuts: „Zu Siri hinzufügen“-Dialog per INUIAddVoiceShortcutViewController in SettingsAutomateView; neue Siri-Shortcut-Definitionen mit NSUserActivity.
+- Backup-AppIntent: CreateZIPBackupIntent erzeugt ZIP-Backup und liefert es als IntentFile zurück; optionaler URL-Rückgabefix.
+- Quick Actions (App-Icon): statische UIApplicationShortcutItems (Create Box, Items, Locations, Settings) hinzugefügt; Handling in AppDelegate/QuickActionState + ContentView, inklusive Cold-Start-Verarbeitung.
+- Detail-Hintergründe: Neues Locations-Setting "Use location image in detail background" (SettingsLocationView) ergänzt und in den Settings freigeschaltet.
+- BoxDetailView, ItemsDetailView und LocationDetailView nutzen jetzt optional das Location-Bild als leicht transparenten, leicht geblurrten Background (mit Fallback auf bisherigen Preview-Background).
+- Neue AppIntents ergänzt: Bestandsübersicht (Boxen/Gegenstände/Standorte), leere Standorte, nicht zugewiesene Gegenstände, Standort-Übersicht (Box- und Gegenstandsanzahl pro Standort).
+- Neue AppShortcuts ergänzt für die oben genannten Intents, damit sie direkt in Kurzbefehle/Siri vorgeschlagen werden.
+- Neuer First-Tab-Reiter "Images" ergänzt: zeigt alle Bilder aus Boxen und Gegenständen in einem dynamischen Raster mit Suche.
+- Suche im Images-Tab nutzt Boxname, Box-Tags, Gegenstandsname und Standortname als Suchbasis.
+- Bildkacheln zeigen eine überlagerte, ellipsenförmige Beschriftung mit Quelle (Box/Gegenstand).
+- Einstellungen > Images: neue Option zur Grid-Bildskalierung im Images-Tab (Key: imagesTabThumbnailSize).
+- Segment-Picker/Navigationslabel erweitert um den neuen Bereich "Images".
+
+2026-02-19 00:11:54 +0100
+- ImagesTab komplett auf ein reines 1:1-Bilder-Grid umgestellt (nur Box-/Item-Name als Overlay direkt auf dem Bild, keine Zusatzinfos neben der Kachel).
+- Automatische Grid-Skalierung ergänzt: mindestens 3 Spalten, auf größeren Displays automatisch mehr Spalten; Kachelgröße wird dynamisch aus verfügbarer Breite berechnet.
+- Edit-Workflow wie in den anderen FirstTabs ergänzt: Pencil/X zum Aktivieren, Mehrfachauswahl mit Auswahlindikator, Bottom-Bar mit Löschen/Counter/Alle auswählen.
+- Long-Press-Unterstützung über die bestehende Press-and-Hold-Einstellung ergänzt: bei aktivierter Option wechselt Long-Press in den Markiermodus.
+- Löschlogik ergänzt: ausgewählte Bilder werden aus Boxen/Gegenständen entfernt und nur dann physisch gelöscht, wenn der Pfad nirgendwo mehr verwendet wird.
+
+2026-02-19 00:20:15 +0100
+- ImagesTab erneut überarbeitet: jetzt schlanke Galerie auf Basis von ScrollView + LazyVGrid (ohne List/Section-Verschachtelung) für stabileres Verhalten.
+- Navigation pro Bild stabilisiert (eindeutige Bild-IDs inkl. Storage-Index), damit beim Tap nur ein Subview geöffnet wird.
+- Dynamische Spaltenlogik angepasst: iPad zeigt standardmäßig mehr Spalten, iPhone weniger; Kacheln bleiben quadratisch und füllen die verfügbare Breite.
+- Edit-Modus inkl. Long-Press-Aktivierung, Mehrfachauswahl, Bottom-Bar (Löschen/Counter/Alle auswählen) beibehalten und vereinfacht.
+- Löschlogik auf indexbasiertes Entfernen umgestellt, damit bei doppelten Bildpfaden nur die korrekt markierten Einträge entfernt werden.
+
+2026-02-19 00:33:11 +0100
+- ImagesTab: Icon vor dem Bildtitel im Overlay ergänzt (Kiste: shippingbox, Gegenstand: Grid), damit die Quelle auf den ersten Blick erkennbar ist.
+
+2026-02-19 00:38:41 +0100
+- Alle FirstTabs erhielten konsistente Empty-States mit Grundanzeige: bei aktiver Suche "Keine Suchergebnisse", ohne Inhalte je Tab eine spezifische "Keine Inhalte"-Meldung (Kisten, Gegenstände, Standorte, Bilder).
+
+2026-02-19 00:53:47 +0100
+- Listenansicht-Einstellungen aus den Create-Einstellungen in „Bedienung & Darstellung“ verschoben (SettingsInputView), damit alle Listen-Darstellungsoptionen zentral konfigurierbar sind.
+
+2026-02-19 00:57:59 +0100
+- FirstTabs (Boxen, Gegenstände, Standorte) auf einheitliche `emptyState`-Darstellung wie im Images-Tab umgestellt (inkl. Such-Icon bei aktiver Suche).
+- Bei leerer Liste werden die unteren Anzahl-Texte (z. B. "Items: x", "Locations: x", Box-Zähler) jetzt ausgeblendet.
+
+2026-02-19 01:03:29 +0100
+- `SettingsInteractionAppearanceView` aus `SettingsView.swift` in eigene Datei ausgelagert (`SettingsInteractionAppearanceView.swift`).
+- Listenansicht-Optionen explizit in `SettingsInteractionAppearanceView` integriert (zuvor fälschlich in veralteter Datei).
+- Veraltete Datei `SettingsInputView.swift` entfernt.
+
+2026-02-19 01:26:45 +0100
+- FirstTab-Switch in den gemeinsamen `MutiTabView` verlagert (zentral gerendert statt in jedem FirstTab).
+- `BoxView`, `ItemsView`, `LocationsView`, `ImagesView` um `showLocalListPicker` erweitert und lokale Switch-Anzeige deaktivierbar gemacht.
+
+2026-02-19 01:31:58 +0100
+- Alle FirstTabs erhalten bei oberer Navigation (Position Top) einen konsistenten Top-Abstand von 50pt am Listenanfang.
+- Negative Top-Paddings in Box/Items/Locations entfernt, damit der Abstand stabil bleibt.
+
+2026-02-19 01:59:11 +0100
+- Horizontales Swipe-Navigieren zwischen FirstTabs (Boxen/Gegenstände/Standorte/Bilder) im `MutiTabView` ergänzt.
+- Wechselanimation je Wischrichtung ergänzt (asymmetrische Move+Opacity Transition).
+- Neue Einstellung in `SettingsInteractionAppearanceView`: "Swipe zwischen Tabs" (`enableFirstTabSwipeNavigation`) zum Aktivieren/Deaktivieren.
+
+2026-02-19 02:18:16 +0100
+- FirstTab-Swipe-Animation ist jetzt in „Bedienung & Darstellung“ auswählbar (`firstTabSwipeAnimationStyle`).
+- Neue Animationsarten ergänzt: `Fade`, `Zoom`, `Push`, `Cube 3D`, `Flip 3D` (zusätzlich zu `Slide`).
+- Swipe-Animation bleibt bewusst auf Wischgesten beschränkt; Tab-Wechsel über den oberen Switch bleibt weiterhin ohne Übergangsanimation.
+
+2026-02-19 13:34:35 +0100
+- Auto-Save für Deep-Navigation in `BoxDetailView` ergänzt: `ItemsDetailView` erhält jetzt ein persistentes Binding statt direktem `$items[idx]`.
+- Änderungen an Items aus der Detailansicht werden dadurch sofort via `UserDefaultsManager.shared.saveItems(...)` gespeichert.
+
+2026-02-19 13:47:00 +0100
+- `LocationDetailView` visuell überarbeitet: Bild/Farbsteuerung in einen festen Header ausgelagert, sodass nur die Kistenliste scrollt.
+- Bildbereich mit kompakterer Button-Leiste neu gestaltet (`Choose Photo`, `Camera`, `Delete`) für klarere Reihenfolge und besseres Layout.
+- Galerie-Flow angepasst: Beim Schließen der Galerie wird automatisch die Kamera geöffnet.
+- Beim Bildimport wird weiterhin nur ein Bild übernommen (erstes ausgewähltes Bild), zusätzliche Auswahlen werden verworfen.
+
+2026-02-19 13:55:36 +0100
+- `LocationDetailView`: Galerieauswahl auf genau 1 Bild begrenzt (`ImagePicker(selectionLimit: 1)`).
+- Bild-Aktionsbuttons (Galerie/Kamera) als reine Icons direkt über dem Vorschaubild überlagernd platziert.
+- Wenn bereits ein Standortbild vorhanden ist, werden Galerie/Kamera ausgeblendet und nur ein Mülleimer-Button angezeigt.
+- Vorschauhöhe des Standortbilds reduziert.
+- Galerie-Flow beibehalten: Beim Schließen der Galerie wird die Kamera automatisch geöffnet.
+
+2026-02-19 14:00:59 +0100
+- `LocationDetailView`: Löschen-Button auf dem Standortbild wird jetzt nur noch im Bearbeitungsmodus (`isEditing`) angezeigt.
+- Overlay-Buttons (Galerie/Kamera/Trash) verkleinert.
+- Platzhalter im Bildbereich überarbeitet: „No image“-Text entfernt, Foto-Icon deutlich vergrößert.
+- Unerwünschtes automatisches Kamera-Öffnen nach dem Schließen der Galerie entfernt.
+
+2026-02-19 14:33:12 +0100
+- `LocationDetailView`: Kistenliste visuell komplett überarbeitet (klarer Kartenstil statt Standard-List-Zeilen).
+- Neue Header-Zeile für den Bereich „Kisten“ mit Zähler ergänzt.
+- Box-Zeilen erhielten bessere Abstände, eigene Row-Insets, ausgeblendete Separatoren und transparente List-Backgrounds.
+- Box-Metadaten (Items/Bilder/Tags) als kompakte Chips gestaltet; Name und Auswahlzustand klarer hervorgehoben.
+- Leerer Zustand der Kistenliste als zentraler Placeholder mit Icon verbessert.
+
+2026-02-19 14:39:34 +0100
+- `LocationDetailView`: Kisteneinträge auf schlichteren Stil umgestellt (näher am `BoxesView`-Look).
+- Starke Farbflächen, Schatten und Chip-Badges entfernt; stattdessen dezente System-Card mit klaren Metadaten (`Label`).
+- Auswahlrahmen und Listentitel/Counter beibehalten.
+
+2026-02-19 14:52:14 +0100
+- `LocationDetailView`: Kistenliste weiter an FirstTab-Design angenähert (vereinfachter Row-Aufbau wie in den Hauptlisten).
+- Row-Kartenstil stark reduziert: keine Schatten/Badge-Chips mehr, stattdessen schlichte Meta-Zeile mit `Label`-Infos.
+- Titelbereich + Auswahlrahmen bewusst beibehalten wie gewünscht.
+
+2026-02-19 15:31:58 +0100
+- `LocationDetailView`: Kistenliste weiter auf klassischen FirstTab-Stil vereinfacht (Standard-List-Feeling ohne Spezial-Insets/Row-Hacks).
+- `boxRow` auf schlichte Zeile reduziert: keine farbigen Cards, keine Shadows, keine Chip-Badges.
+- Metadaten als normale, dezente Label-Zeile dargestellt; Auswahlrahmen bleibt erhalten.
+
+2026-02-19 15:40:31 +0100
+- `LocationDetailView`: Kistenliste auf noch schlichteren, normalen Standard-List-Look umgestellt.
+- Spezial-Row-Insets/Separator-Hacks reduziert und Einträge wieder näher am nativen FirstTab-Listenverhalten gehalten.
+- Row-Styling bereinigt (keine Chips, keine farbigen Card-Flächen), Auswahlrahmen bleibt als dezenter Fokus erhalten.
+
+- 2026-02-19 15:52:03 +0100 | LocationDetailView: Kistenliste auf FirstTab-Standard umgestellt (statischer Header "Kisten", schlankere Rows, NavigationLink direkt um Row-Content, Hintergrund auf systemBackground statt grauem Material in Dark Mode).
+
+- 2026-02-19 16:02:35 +0100 | LocationDetailView: Kistenliste an Items-Liste aus BoxDetailView angeglichen (Row-Struktur, NavigationLink-Verhalten, Edit-Modus mit reinem Check-Icon und voll klickbarem Eintrag). Ergänzt: Vorschaubild, Box-Icon vor Name, Item-Anzahl mit Icon.
+
+- 2026-02-19 20:00:39 +0100 | Tab-Navigation: neue Option "Keine" für Swipe-Animation ergänzt (0ms), konfigurierbare Animationsdauer per Slider (0.2s bis 10s) hinzugefügt und bei "Keine" automatisch deaktiviert.
+
+- 2026-02-19 20:05:36 +0100 | LaunchScreen: Hintergrundanimation neu gestaltet (cineastischer Neon/Aurora-Look mit bewegten Glow-Orbs und Lichtspuren), Intro-Animation von App-Icon + App-Name unverändert gelassen. Alte Version als auskommentiertes Backup unter Views/Old Versions/LaunchScreen_backup_20260219.swift abgelegt.
+
+- 2026-02-19 20:12:18 +0100 | Settings: 5-fach Tap auf das App-Logo in den Einstellungen startet den LaunchScreen erneut (Notification-basierter Trigger zwischen SettingsView und App-Root).
+
+- 2026-02-19 20:18:12 +0100 | LaunchScreen: Hintergrundbewegung stabilisiert. Die Drift-/Orbit-Animation startet jetzt explizit mit repeatForever nach dem ersten Render-Tick, damit der Hintergrund zuverlässig sichtbar animiert.
+
+- 2026-02-19 20:38:07 +0100 | LaunchScreen: Hintergrund auf Konfetti-Tornado umgebaut (spiralförmige Konfetti-Partikel + rotierender Kern). Intro mit App-Icon/App-Name unverändert. Vorherige Version als auskommentiertes Backup unter Views/Old Versions/LaunchScreen_backup_20260219_confetti.swift gesichert.
+
+- 2026-02-19 20:44:24 +0100 | LaunchScreen: Hintergrund auf komplementäre, weich wabernde Farb-Bubbles mit leichter Hue-Drift umgestellt (hinter `ultraThinMaterial`). Zusätzlich eine vorgeschaltete Konfetti-Explosion im Vordergrund ergänzt. Alte LaunchScreen-Version als auskommentiertes Backup unter `Views/Old Versions/LaunchScreen_backup_20260219_complementary.swift` abgelegt.
+
+- 2026-02-19 20:55:12 +0100 | LaunchScreen: Update-Liste auf dynamische Inhalte aus `changes.txt` umgestellt (neueste Einträge zuerst). Für erkannte Feature-Änderungen werden direkt passende Quick-Toggles angezeigt (z. B. Swipe zwischen Tabs, Formulardaten speichern, Standortbild-Hintergrund, QR-Farboptionen). Nicht schaltbare Einträge werden als Feature-Highlights dargestellt.
+
+- 2026-02-19 22:45:48 +0100 | LaunchScreen: `Image("Background")`-Layer auf nahtlose Endlos-Loop umgestellt. Animation läuft jetzt kontinuierlich in exakter Periode (Timeline-basiert), mit ähnlichem Look und neuen Hue-Rotationswerten für lebendigere Farbverläufe.
+
+- 2026-02-19 22:52:51 +0100 | LaunchScreen: zusätzlicher „Falling into images“-Effekt im Background ergänzt. Mehrere Layer zoomen jetzt zentriert aus der Mitte nach vorne und springen bei maximaler Nähe wieder nach hinten in eine nahtlose Endlosschleife. Blur nimmt beim Heranzoomen deutlich zu.
+
+- 2026-02-19 22:53:40 +0100 | LaunchScreen: Layer-Reset im Hintergrund geglättet. Zurückgesetzte Layer starten jetzt bei 0% Sichtbarkeit und blenden weich ein (plus leichtes Ausblenden vor dem nächsten Reset), wodurch harte Sprünge beim Neuaufbau verschwinden.
+
+- 2026-02-19 23:37:09 +0100 | LaunchScreen: Startablauf auf user-gesteuerten Einstieg umgestellt. Vor dem Slide-In erscheint jetzt zuerst "Update abgeschlossen" mit `Weiter`-Button (Fade-In/Fade-Out). Hintergrundlayer bleiben bis zum Klick ruhig, führen danach einen kurzen Zoom/Rotations-Impuls aus und beruhigen sich anschließend sanft.
+
+- 2026-02-19 23:44:24 +0100 | LaunchScreen: Ablauf neu choreografiert. Erst blenden Logo und rotierende Layer gemeinsam ein, danach erscheint „Update abgeschlossen“ unter dem Appnamen, `Fortfahren` sitzt unten auf der bisherigen Button-Höhe. Beim Klick wischen die Inhalte nach oben weg; die Layer führen einen letzten sanften Rotations-/Zoom-Impuls nach vorne aus und blenden aus.
+
+- 2026-02-19 23:49:37 +0100 | LaunchScreen: Startzustand beim Anzeigen vollständig zurückgesetzt (`didTapWeiter`, `headerLift`, Button-/Text-/Opacity- und Exit-States). Damit startet der Screen wieder zuverlässig mit `Weiter` und ohne vorzeitiges Hochfahren des Logos.
+
+- 2026-02-19 23:53:16 +0100 | LaunchScreen: Intro-Layout neu ausgerichtet. AppLogo sitzt jetzt direkt über dem Appnamen. `Weiter` schiebt Header nach oben und blendet Versionsinfo + Changes-Liste ein; erst danach folgt `Fortfahren` für den Exit.
+
+- 2026-02-20 00:01:19 +0100 | LaunchScreen: Updates-Anzeige auf feste kuratierte `updates`-Liste umgestellt (kein `changes.txt`-Parsing mehr). Jede Neuerung wird als eigene Section/Card dargestellt; auf iOS 26 mit Liquid-Glass-Look (`glassEffect`), sonst Material-Fallback.
+
+- 2026-02-20 00:04:46 +0100 | LaunchScreen: Updates-Liste visuell 1:1 auf die gewünschte Struktur umgebaut (Heading + ScrollView + einzelne Karten mit `glassEffect(in: .rect(cornerRadius: 10.0))` auf iOS 26 bzw. Material-Fallback). Update-Texte auf die bereitgestellte Liste ersetzt.
+
+- 2026-02-20 00:10:30 +0100 | LaunchScreen: Header-Lift begrenzt (Logo/Appname bleiben innerhalb des sichtbaren Bereichs) und `Update abgeschlossen` blendet beim Tip auf `Weiter` aus.
+
+- 2026-02-20 00:12:48 +0100 | LaunchScreen: Updates-Scroll auf kleine Displays korrigiert (Cards zentriert und auf verfügbare Breite begrenzt, zusätzlich mehr Horizontal-Padding). Header-Lift nach `Weiter` reduziert, damit AppLogo vollständig sichtbar bleibt.
+
+- 2026-02-20 00:15:17 +0100 | LaunchScreen: Changes-Liste näher unter den Appnamen gezogen. Nach `Weiter` wird die Zeile `Update abgeschlossen` layoutseitig kollabiert und der obere Listenabstand reduziert.
+
+- 2026-02-20 00:26:23 +0100 | LaunchScreen: Positionswerte des Header-/Listen-Bereichs auf die Original-Struktur zurückgeführt (ZStack-Layout mit Originalhöhen/-paddings wie 170/65/240, Scroll-Karten-Layout und Button-Abstände). `Weiter/Fortfahren`-Ablauf bleibt erhalten.
+
+- 2026-02-20 00:34:46 +0100 | LaunchScreen: Header-Positionierung auf Original-Layout umgestellt und Start-Header als zentriertes Overlay umgesetzt, damit der AppName im ersten Schritt exakt vertikal mittig bleibt.
+
+- 2026-02-20 00:39:01 +0100 | LaunchScreen: Header wechselt bei `Weiter` nicht mehr zwischen zwei Views. Logo + AppName bleiben als ein Block bestehen und gleiten per Offset-Animation nach oben (statt Ausblenden+Neuplatzierung).

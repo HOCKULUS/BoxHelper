@@ -1,0 +1,313 @@
+{
+  "color-space-for-untagged-svg-colors" : "display-p3",
+  "features" : [
+    "refractivity",
+    "specular-location"
+  ],
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.74598,0.64341,0.51785,1.00000",
+      "display-p3:0.26826,0.25166,0.16989,0.50000"
+    ]
+  },
+  "groups" : [
+    {
+      "blend-mode-specializations" : [
+        {
+          "value" : "plus-lighter"
+        },
+        {
+          "appearance" : "light",
+          "value" : "overlay"
+        }
+      ],
+      "blur-material" : 0.14,
+      "layers" : [
+        {
+          "blend-mode-specializations" : [
+            {
+              "appearance" : "light",
+              "value" : "plus-darker"
+            }
+          ],
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "display-p3:0.00000,0.00000,0.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:1.00000,1.00000,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "display-p3:0.73119,0.73119,0.73119,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "image-name-specializations" : [
+            {
+              "value" : "B.png"
+            },
+            {
+              "appearance" : "dark",
+              "value" : "B_glass.png"
+            },
+            {
+              "appearance" : "tinted",
+              "value" : "B_glass.png"
+            }
+          ],
+          "name" : "B_glass",
+          "opacity-specializations" : [
+            {
+              "value" : 0.39
+            },
+            {
+              "appearance" : "light",
+              "value" : 1
+            }
+          ],
+          "position-specializations" : [
+            {
+              "value" : {
+                "scale" : 1,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "idiom" : "watchOS",
+              "value" : {
+                "scale" : 1.2,
+                "translation-in-points" : [
+                  63.5639125811106,
+                  -63.6
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "opacity" : 1,
+      "refractivity" : {
+        "depth" : 0.0134375,
+        "enabled" : true,
+        "strength" : 0.3390234375
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    },
+    {
+      "blur-material" : 0.5,
+      "layers" : [
+        {
+          "glass" : false,
+          "image-name" : "AppIconPrideNEU_Sticker.png",
+          "name" : "AppIconPrideNEU_Sticker",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              185,
+              -228
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : "inside",
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    },
+    {
+      "blend-mode" : "plus-lighter",
+      "blur-material" : 0.5,
+      "layers" : [
+        {
+          "hidden" : false,
+          "image-name" : "AppIconPrideNEU_Tape1.png",
+          "name" : "AppIconPrideNEU_Tape1",
+          "opacity" : 0.5,
+          "position" : {
+            "scale" : 1.2,
+            "translation-in-points" : [
+              45.499999999999886,
+              62
+            ]
+          }
+        },
+        {
+          "image-name" : "AppIconPrideNEU_Tape2.png",
+          "name" : "AppIconPrideNEU_Tape2",
+          "opacity" : 0.5,
+          "position" : {
+            "scale" : 1.2000000000000002,
+            "translation-in-points" : [
+              -15,
+              -2.6000000000000227
+            ]
+          }
+        }
+      ],
+      "opacity" : 1,
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    },
+    {
+      "blend-mode" : "normal",
+      "blur-material" : 1,
+      "layers" : [
+        {
+          "image-name" : "AppIconPrideNEU_Tape2.png",
+          "name" : "AppIconPrideNEU_Tape2",
+          "position" : {
+            "scale" : 1.2000000000000002,
+            "translation-in-points" : [
+              -15,
+              -2.6000000000000227
+            ]
+          }
+        },
+        {
+          "hidden" : false,
+          "image-name" : "AppIconPrideNEU_Tape1.png",
+          "name" : "AppIconPrideNEU_Tape1",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 1.2,
+            "translation-in-points" : [
+              45.499999999999886,
+              62
+            ]
+          }
+        },
+        {
+          "hidden" : true,
+          "image-name" : "sticker2.png",
+          "name" : "sticker2"
+        },
+        {
+          "blend-mode-specializations" : [
+            {
+              "value" : "normal"
+            },
+            {
+              "appearance" : "tinted",
+              "value" : "normal"
+            }
+          ],
+          "glass" : true,
+          "hidden" : true,
+          "image-name" : "sticker.png",
+          "name" : "sticker_glass",
+          "opacity" : 1
+        },
+        {
+          "hidden" : true,
+          "image-name" : "AppIconPrideNEU_Tape.png",
+          "name" : "AppIconPrideNEU_Tape",
+          "position" : {
+            "scale" : 1.1800000000000002,
+            "translation-in-points" : [
+              16.200000000000045,
+              22.139999999999873
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "glass" : true,
+          "hidden" : false,
+          "image-name-specializations" : [
+            {
+              "value" : "background.png"
+            },
+            {
+              "appearance" : "dark",
+              "value" : "background_glass.png"
+            },
+            {
+              "appearance" : "tinted",
+              "value" : "background_glass.png"
+            }
+          ],
+          "name" : "background_glass",
+          "opacity-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : 1
+            }
+          ],
+          "position-specializations" : [
+            {
+              "value" : {
+                "scale" : 1.18,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "idiom" : "watchOS",
+              "value" : {
+                "scale" : 1.5,
+                "translation-in-points" : [
+                  0,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "name" : "Group",
+      "refractivity" : {
+        "depth" : 0.4601953125,
+        "enabled" : false,
+        "strength" : 0.292265625
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

@@ -179,7 +179,9 @@ public class Zip {
             let fullPath = destination.appendingPathComponent(pathString).standardized.path
             // .standardized removes any ".. to move a level up".
             // If we then check that the fullPath starts with the destination directory we know we are not extracting "outside" te destination.
-            guard fullPath.starts(with: destination.standardized.path) else {
+            // Include the separator: a sibling directory sharing the prefix is outside the destination.
+            let destinationPath = destination.standardized.path
+            guard fullPath == destinationPath || fullPath.hasPrefix(destinationPath + "/") else {
                 throw ZipError.unzipFail
             }
 

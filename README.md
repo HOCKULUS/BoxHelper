@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="BoxHelper/Assets.xcassets/AppLogo.imageset/AppIcon-iOS-Default-1024x1024@2x_4.png" alt="BoxHelper app icon" width="140">
+  <img src="BoxHelper/Assets.xcassets/AppLogo.imageset/AppIcon-iOS-Default-512x512@1x.png" alt="BoxHelper app icon" width="140">
 </p>
 
 <h1 align="center">BoxHelper</h1>
@@ -91,24 +91,27 @@ BoxHelper is built for:
 
 - iPhone with iOS 18.0 or later
 - iPad with iPadOS 18.0 or later
-- Mac with macOS 15.0 or later and an Apple M1 chip or later
+- Mac with macOS 26.0 or later and an Apple M1 chip or later
 - Apple Vision with visionOS 2.0 or later
 
 ## Development
 
 ### Requirements
 
-- Xcode
+- Xcode 26 or later with Swift 6
 - iOS/iPadOS simulator or a compatible test device
-- Local Swift package `Zip`, because the Xcode project references `../../Zip-Dependency`
+- The bundled local Swift package `Zip` in `Zip-Dependency`
 
 ### Open the Project
 
 1. Clone the repository.
-2. Make sure the local `Zip` dependency is available at the expected relative path.
+2. Keep `BoxHelper`, `BoxHelperWidgets`, `WidgetShared`, `Zip-Dependency`, and `BoxHelper.xcodeproj` together in the repository root.
 3. Open `BoxHelper.xcodeproj` in Xcode.
 4. Select a scheme, for example `en-US`, `de-DE`, or `BoxHelperRelase`.
-5. Build and run the app on a simulator or device.
+5. Configure your own development team and bundle identifiers for the app and widget targets. For iCloud, sharing, and widgets, configure the corresponding capabilities and containers for your account.
+6. Build and run the app on a simulator or device.
+
+The source tree contains development version `3.0.0`. Personal Xcode settings, build output, and signing credentials are excluded through `.gitignore`.
 
 ## Privacy
 
@@ -116,7 +119,7 @@ BoxHelper is designed around local organization and user-controlled exports. The
 
 ## App Store
 
-BoxHelper is available for free in the Productivity category on the App Store. Current public version: `2.0.1`.
+BoxHelper is available for free in the Productivity category on the App Store.
 
 [Open BoxHelper on the App Store](https://apps.apple.com/us/app/boxhelper/id6737223705)
 

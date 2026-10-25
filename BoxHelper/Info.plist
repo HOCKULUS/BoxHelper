@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BoxHelperCloudKitSigningEnabled</key>
+	<string>$(CODE_SIGNING_ALLOWED)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>BoxQRCode</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>boxhelper</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>ShortBoxQRCode</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>b0xh</string>
+			</array>
+		</dict>
+	</array>
+	<key>CKSharingSupported</key>
+	<true/>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>de.hockulus.boxhelper.form</string>
+		<string>de.hockulus.boxhelper.search</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>

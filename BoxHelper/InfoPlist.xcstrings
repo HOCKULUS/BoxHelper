@@ -1,0 +1,1056 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बॉक्सहेल्पर"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箱子助手"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箱子助手"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बॉक्सहेल्पर"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箱子助手"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箱子助手"
+          }
+        }
+      }
+    },
+    "NSAppleMusicUsageDescription" : {
+      "comment" : "Privacy - Media Library Usage Description",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يحتاج BoxHelper إلى الوصول إلى مكتبة الصور كي تتمكن من إضافة صور إلى الصناديق والعناصر والمواقع."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বাক্স, আইটেম ও অবস্থানে ছবি যোগ করার জন্য BoxHelper-এর আপনার ফটো লাইব্রেরিতে প্রবেশাধিকার প্রয়োজন।"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper potřebuje přístup k fotoknihovně, abys mohl přidávat fotografie ke krabicím, položkám a umístěním."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper har brug for adgang til dit fotobibliotek, så du kan føje fotos til dine kasser, genstande og placeringer."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper benötigt Zugriff auf deine Fotos, damit du Fotos zu deinen Kisten hinzufügen kannst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to the photo library so you can add photos to your boxes, items & locations."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to the photo library so you can add photos to your boxes, items & locations."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necesitamos acceso a la fototeca para que puedas añadir fotos a tus cajas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nous avons besoin d’un accès à la bibliothèque de photos afin que vous puissiez ajouter des photos à vos boîtes."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper a besoin d’accéder à ta photothèque pour que tu puisses ajouter des photos à tes boîtes, objets et emplacements."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डिब्बों, वस्तुओं और स्थानों में फ़ोटो जोड़ने के लिए BoxHelper को आपकी फ़ोटो लाइब्रेरी की अनुमति चाहिए।"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper richiede l’accesso alla libreria fotografica per consentirti di aggiungere foto a scatole, oggetti e posizioni."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箱、アイテム、場所に写真を追加できるように、BoxHelper は写真ライブラリへのアクセスを必要とします。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper heeft toegang tot je fotobibliotheek nodig zodat je foto’s aan dozen, items en locaties kunt toevoegen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper potrzebuje dostępu do biblioteki zdjęć, aby można było dodawać zdjęcia do pudełek, przedmiotów i lokalizacji."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O BoxHelper precisa de acesso à tua fototeca para que possas adicionar fotografias às caixas, aos itens e às localizações."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper behöver tillgång till ditt bildbibliotek så att du kan lägga till foton i lådor, föremål och platser."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper, kutulara, öğelere ve konumlara fotoğraf ekleyebilmeniz için fotoğraf arşivinize erişim gerektirir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ам потрібен доступ до фототеки, щоб ви могли додавати фотографії до своїх коробок."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们需要访问照片库，以便您可以将照片添加到您的箱子中。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我們需要訪問你的照片庫，以便你可以將照片添加到你的箱子中。"
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "comment" : "Privacy - Camera Usage Description",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يحتاج BoxHelper إلى الوصول إلى الكاميرا كي تتمكن من إضافة صور إلى الصناديق والعناصر والمواقع."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বাক্স, আইটেম ও অবস্থানে ছবি যোগ করার জন্য BoxHelper-এর ক্যামেরা ব্যবহারের অনুমতি প্রয়োজন।"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper potřebuje přístup ke kameře, abys mohl přidávat fotografie ke krabicím, položkám a umístěním."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper har brug for adgang til kameraet, så du kan føje fotos til dine kasser, genstande og placeringer."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper benötigt Zugriff auf die Kamera, damit du Fotos zu deinen Kisten hinzufügen kannst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to the camera so you can add photos to your boxes, items & locations."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to the camera so you can add photos to your boxes, items & locations."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necesitamos acceso a la cámara para que puedas añadir fotos a tus cajas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nous avons besoin d’un accès à la caméra afin que vous puissiez ajouter des photos à vos boîtes."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper a besoin d’accéder à la caméra pour que tu puisses ajouter des photos à tes boîtes, objets et emplacements."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "डिब्बों, वस्तुओं और स्थानों में फ़ोटो जोड़ने के लिए BoxHelper को कैमरे की अनुमति चाहिए।"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper richiede l’accesso alla fotocamera per consentirti di aggiungere foto a scatole, oggetti e posizioni."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "箱、アイテム、場所に写真を追加できるように、BoxHelper はカメラへのアクセスを必要とします。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper heeft toegang tot de camera nodig zodat je foto’s aan dozen, items en locaties kunt toevoegen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper potrzebuje dostępu do aparatu, aby można było dodawać zdjęcia do pudełek, przedmiotów i lokalizacji."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O BoxHelper precisa de acesso à câmara para que possas adicionar fotografias às caixas, aos itens e às localizações."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper behöver tillgång till kameran så att du kan lägga till foton i lådor, föremål och platser."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper, kutulara, öğelere ve konumlara fotoğraf ekleyebilmeniz için kameraya erişim gerektirir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нам потрібен доступ до камери, щоб ви могли додавати фотографії до своїх коробок."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们需要访问相机，以便您可以将照片添加到您的箱子中。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我們需要訪問你的相機，以便你可以將照片添加到你的箱子中。"
+          }
+        }
+      }
+    },
+    "NSDocumentsFolderUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يحتاج BoxHelper إلى الوصول إلى ملفاتك لتتمكن من استيرادها إلى التطبيق."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অ্যাপে ফাইল আমদানি করার জন্য BoxHelper-এর আপনার ফাইলে প্রবেশাধিকার প্রয়োজন।"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper potřebuje přístup k tvým souborům, abys je mohl importovat do aplikace."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper har brug for adgang til dine filer, så du kan importere dem i appen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to your files so you can import files to the app."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to your files so you can import files to the app."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prueba"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper a besoin d’accéder à tes fichiers pour que tu puisses les importer dans l’app."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऐप में फ़ाइलें आयात करने के लिए BoxHelper को आपकी फ़ाइलों तक पहुँच की अनुमति चाहिए।"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper richiede l’accesso ai tuoi file per consentirti di importarli nell’app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリにファイルを読み込めるように、BoxHelper はファイルへのアクセスを必要とします。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper heeft toegang tot je bestanden nodig zodat je bestanden in de app kunt importeren."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper potrzebuje dostępu do plików, aby można było importować je do aplikacji."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O BoxHelper precisa de acesso aos teus ficheiros para que possas importá-los para a aplicação."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper behöver tillgång till dina filer så att du kan importera dem till appen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper, dosyaları uygulamaya içe aktarabilmeniz için dosyalarınıza erişim gerektirir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тест"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "测试"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "測試"
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "comment" : "Privacy - Microphone Usage Description",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يستخدم BoxHelper الميكروفون لتمكينك من إملاء أسماء العناصر بعد التقاط الصور."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ছবি তোলার পর আইটেমের নাম মুখে বলার সুবিধা দিতে BoxHelper মাইক্রোফোন ব্যবহার করে।"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper používá mikrofon, abys mohl po fotografování diktovat názvy položek."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper bruger mikrofonen, så du kan diktere genstandsnavne efter at have taget fotos."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper nutzt das Mikrofon, damit du nach dem Fotografieren Gegenstandsnamen diktieren kannst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper uses the microphone so you can dictate item names after taking photos."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper uses the microphone so you can dictate item names after taking photos."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper utiliza el micrófono para que puedas dictar los nombres de los objetos después de hacer fotos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper utilise le microphone pour que tu puisses dicter les noms des objets après avoir pris des photos."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper utilise le microphone pour que tu puisses dicter les noms des objets après avoir pris des photos."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper माइक्रोफ़ोन का उपयोग करता है ताकि फ़ोटो लेने के बाद आप वस्तुओं के नाम बोलकर दर्ज कर सकें।"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper usa il microfono per consentirti di dettare i nomi degli oggetti dopo aver scattato le foto."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を撮った後にアイテム名を音声入力できるように、BoxHelper はマイクを使用します。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper gebruikt de microfoon zodat je itemnamen kunt dicteren na het maken van foto’s."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper używa mikrofonu, aby umożliwić dyktowanie nazw przedmiotów po zrobieniu zdjęć."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O BoxHelper utiliza o microfone para que possas ditar nomes de itens depois de tirar fotografias."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper använder mikrofonen så att du kan diktera föremålsnamn efter att ha tagit foton."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper, fotoğraf çektikten sonra öğe adlarını dikte edebilmeniz için mikrofonu kullanır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper використовує мікрофон, щоб ти міг диктувати назви предметів після фотографування."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper 使用麦克风，让你在拍照后听写物品名称。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper 使用咪高峰，讓你在拍照後聽寫物品名稱。"
+          }
+        }
+      }
+    },
+    "NSSiriUsageDescription" : {
+      "comment" : "Privacy - Siri Usage Description",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يحتاج BoxHelper إلى الوصول إلى Siri لتتمكن من التحكم في التطبيق باستخدام Siri."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri দিয়ে অ্যাপ নিয়ন্ত্রণ করার জন্য BoxHelper-এর Siri ব্যবহারের অনুমতি প্রয়োজন।"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper potřebuje přístup k Siri, abys mohl aplikaci ovládat pomocí Siri."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper har brug for adgang til Siri, så du kan styre appen med Siri."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper benötigt Zugriff auf Siri, damit du die App mit Siri steuern kannst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to siri so you can use siri to control the app."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to siri so you can use siri to control the app."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper necesita acceso a Siri para que puedas controlar la app con Siri."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper a besoin d’accéder à Siri pour que tu puisses contrôler l’app avec Siri."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper a besoin d’accéder à Siri pour que tu puisses contrôler l’app avec Siri."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri से ऐप नियंत्रित करने के लिए BoxHelper को Siri की अनुमति चाहिए।"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper richiede l’accesso a Siri per consentirti di controllare l’app con Siri."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri でアプリを操作できるように、BoxHelper は Siri へのアクセスを必要とします。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper heeft toegang tot Siri nodig zodat je de app met Siri kunt bedienen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper potrzebuje dostępu do Siri, aby umożliwić sterowanie aplikacją przez Siri."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O BoxHelper precisa de acesso à Siri para que possas controlar a aplicação com a Siri."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper behöver tillgång till Siri så att du kan styra appen med Siri."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper, uygulamayı Siri ile kontrol edebilmeniz için Siri’ye erişim gerektirir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper потрібен доступ до Siri, щоб ти міг керувати застосунком за допомогою Siri."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper 需要访问 Siri，以便你通过 Siri 控制应用。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper 需要存取 Siri，讓你透過 Siri 控制應用程式。"
+          }
+        }
+      }
+    },
+    "NSSpeechRecognitionUsageDescription" : {
+      "comment" : "Privacy - Speech Recognition Usage Description",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يستخدم BoxHelper التعرف على الكلام على جهازك لتحويل الأسماء التي تمليها بعد التصوير إلى نص وحفظها كأسماء للعناصر."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper আপনার ডিভাইসেই স্পিচ রিকগনিশন ব্যবহার করে ছবি তোলার পর বলা নামগুলোকে লেখায় রূপান্তর করে এবং আইটেমের নাম হিসেবে সংরক্ষণ করে।"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper používá rozpoznávání řeči přímo na tvém zařízení k přepisu názvů nadiktovaných po fotografování a ukládá je jako názvy položek."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper bruger talegenkendelse på din enhed til at transskribere de navne, du dikterer efter fotografering, og gemme dem som genstandsnavne."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper wandelt die nach dem Fotografieren diktierten Namen direkt auf deinem Gerät in Text um und speichert sie als Gegenstandsnamen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper uses speech recognition on your device to transcribe the names you dictate after taking photos and save them as item names."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper uses speech recognition on your device to transcribe the names you dictate after taking photos and save them as item names."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper utiliza el reconocimiento de voz en tu dispositivo para transcribir los nombres que dictas después de hacer fotos y guardarlos como nombres de objetos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper utilise la reconnaissance vocale sur ton appareil pour transcrire les noms que tu dictes après avoir pris des photos et les enregistrer comme noms d’objets."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper utilise la reconnaissance vocale sur ton appareil pour transcrire les noms que tu dictes après avoir pris des photos et les enregistrer comme noms d’objets."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper आपके डिवाइस पर वाक् पहचान का उपयोग करके फ़ोटो लेने के बाद बोले गए नामों को पाठ में बदलता है और वस्तुओं के नाम के रूप में सहेजता है।"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper usa il riconoscimento vocale sul tuo dispositivo per trascrivere i nomi che detti dopo aver scattato le foto e salvarli come nomi degli oggetti."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper はデバイス上で音声認識を使い、写真撮影後に話した名前を文字に変換してアイテム名として保存します。"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper gebruikt spraakherkenning op je apparaat om namen die je na het fotograferen dicteert om te zetten in tekst en op te slaan als itemnamen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper używa rozpoznawania mowy na Twoim urządzeniu, aby przekształcać nazwy dyktowane po zrobieniu zdjęć w tekst i zapisywać je jako nazwy przedmiotów."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O BoxHelper utiliza o reconhecimento de voz no teu dispositivo para transcrever os nomes que ditas depois de tirar fotografias e guardá-los como nomes de itens."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper använder taligenkänning på din enhet för att omvandla namn som du dikterar efter fotografering till text och spara dem som föremålsnamn."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper, fotoğraf çektikten sonra dikte ettiğiniz adları metne dönüştürüp öğe adı olarak kaydetmek için cihazınızda konuşma tanıma kullanır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper використовує розпізнавання мовлення на твоєму пристрої, щоб перетворювати продиктовані після фотографування назви на текст і зберігати їх як назви предметів."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper 在你的设备上使用语音识别，将拍照后听写的名称转换为文字，并保存为物品名称。"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BoxHelper 在你的裝置上使用語音辨識，將拍照後聽寫的名稱轉換為文字，並儲存為物品名稱。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
